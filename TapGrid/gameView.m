@@ -12,8 +12,11 @@
 
 
 - (IBAction)testButton:(id)sender {
-    NSString *Num = @"2";
-    [sender setTitle:Num forState:UIControlStateNormal];
+    
+    int rand = arc4random_uniform(10);
+    NSString *num = [NSString stringWithFormat:@"%d", rand];
+    [sender setTitle:num forState:UIControlStateNormal];
+    
 }
 
 @end

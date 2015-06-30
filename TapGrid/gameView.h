@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#include <stdlib.h>
+
 
 @interface gameView : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIButton *testButton;
 
 @end
