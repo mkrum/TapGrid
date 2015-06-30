@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 apptrocious. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MenuViewController.h"
 
 @interface ViewController ()
 

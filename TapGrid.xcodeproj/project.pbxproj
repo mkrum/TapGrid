@@ -10,11 +10,12 @@
 		38B208FE1B421D2C001224A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B208FD1B421D2C001224A3 /* main.m */; };
 		38B209011B421D2C001224A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209001B421D2C001224A3 /* AppDelegate.m */; };
 		38B209041B421D2C001224A3 /* TapGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38B209021B421D2C001224A3 /* TapGrid.xcdatamodeld */; };
-		38B209071B421D2C001224A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209061B421D2C001224A3 /* ViewController.m */; };
+		38B209071B421D2C001224A3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209061B421D2C001224A3 /* MenuViewController.m */; };
 		38B2090A1B421D2C001224A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B209081B421D2C001224A3 /* Main.storyboard */; };
 		38B2090C1B421D2C001224A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B2090B1B421D2C001224A3 /* Images.xcassets */; };
 		38B2090F1B421D2C001224A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B2090D1B421D2C001224A3 /* LaunchScreen.xib */; };
 		38B2091B1B421D2C001224A3 /* TapGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B2091A1B421D2C001224A3 /* TapGridTests.m */; };
+		38B209261B421FF5001224A3 /* gameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209251B421FF5001224A3 /* gameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		38B208FF1B421D2C001224A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38B209001B421D2C001224A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38B209031B421D2C001224A3 /* TapGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TapGrid.xcdatamodel; sourceTree = "<group>"; };
-		38B209051B421D2C001224A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38B209061B421D2C001224A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38B209051B421D2C001224A3 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		38B209061B421D2C001224A3 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		38B209091B421D2C001224A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38B2090B1B421D2C001224A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38B2090E1B421D2C001224A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38B209141B421D2C001224A3 /* TapGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B209191B421D2C001224A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B2091A1B421D2C001224A3 /* TapGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGridTests.m; sourceTree = "<group>"; };
+		38B209241B421FF5001224A3 /* gameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameView.h; sourceTree = "<group>"; };
+		38B209251B421FF5001224A3 /* gameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +88,11 @@
 			children = (
 				38B208FF1B421D2C001224A3 /* AppDelegate.h */,
 				38B209001B421D2C001224A3 /* AppDelegate.m */,
-				38B209051B421D2C001224A3 /* ViewController.h */,
-				38B209061B421D2C001224A3 /* ViewController.m */,
+				38B209051B421D2C001224A3 /* MenuViewController.h */,
+				38B209061B421D2C001224A3 /* MenuViewController.m */,
 				38B209081B421D2C001224A3 /* Main.storyboard */,
+				38B209241B421FF5001224A3 /* gameView.h */,
+				38B209251B421FF5001224A3 /* gameView.m */,
 				38B2090B1B421D2C001224A3 /* Images.xcassets */,
 				38B2090D1B421D2C001224A3 /* LaunchScreen.xib */,
 				38B209021B421D2C001224A3 /* TapGrid.xcdatamodeld */,
@@ -224,7 +229,8 @@
 			files = (
 				38B209011B421D2C001224A3 /* AppDelegate.m in Sources */,
 				38B208FE1B421D2C001224A3 /* main.m in Sources */,
-				38B209071B421D2C001224A3 /* ViewController.m in Sources */,
+				38B209261B421FF5001224A3 /* gameView.m in Sources */,
+				38B209071B421D2C001224A3 /* MenuViewController.m in Sources */,
 				38B209041B421D2C001224A3 /* TapGrid.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
