@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38B208FE1B421D2C001224A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B208FD1B421D2C001224A3 /* main.m */; };
+		38B209011B421D2C001224A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209001B421D2C001224A3 /* AppDelegate.m */; };
+		38B209041B421D2C001224A3 /* TapGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38B209021B421D2C001224A3 /* TapGrid.xcdatamodeld */; };
+		38B209071B421D2C001224A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209061B421D2C001224A3 /* ViewController.m */; };
+		38B2090A1B421D2C001224A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B209081B421D2C001224A3 /* Main.storyboard */; };
+		38B2090C1B421D2C001224A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B2090B1B421D2C001224A3 /* Images.xcassets */; };
+		38B2090F1B421D2C001224A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B2090D1B421D2C001224A3 /* LaunchScreen.xib */; };
+		38B2091B1B421D2C001224A3 /* TapGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B2091A1B421D2C001224A3 /* TapGridTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B209151B421D2C001224A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B208F01B421D2C001224A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B208F71B421D2C001224A3;
+			remoteInfo = TapGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38B208F81B421D2C001224A3 /* TapGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B208FC1B421D2C001224A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B208FD1B421D2C001224A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38B208FF1B421D2C001224A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38B209001B421D2C001224A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38B209031B421D2C001224A3 /* TapGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TapGrid.xcdatamodel; sourceTree = "<group>"; };
+		38B209051B421D2C001224A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38B209061B421D2C001224A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38B209091B421D2C001224A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38B2090B1B421D2C001224A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38B2090E1B421D2C001224A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38B209141B421D2C001224A3 /* TapGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B209191B421D2C001224A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B2091A1B421D2C001224A3 /* TapGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGridTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38B208F51B421D2C001224A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B209111B421D2C001224A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38B208EF1B421D2C001224A3 = {
+			isa = PBXGroup;
+			children = (
+				38B208FA1B421D2C001224A3 /* TapGrid */,
+				38B209171B421D2C001224A3 /* TapGridTests */,
+				38B208F91B421D2C001224A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38B208F91B421D2C001224A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38B208F81B421D2C001224A3 /* TapGrid.app */,
+				38B209141B421D2C001224A3 /* TapGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38B208FA1B421D2C001224A3 /* TapGrid */ = {
+			isa = PBXGroup;
+			children = (
+				38B208FF1B421D2C001224A3 /* AppDelegate.h */,
+				38B209001B421D2C001224A3 /* AppDelegate.m */,
+				38B209051B421D2C001224A3 /* ViewController.h */,
+				38B209061B421D2C001224A3 /* ViewController.m */,
+				38B209081B421D2C001224A3 /* Main.storyboard */,
+				38B2090B1B421D2C001224A3 /* Images.xcassets */,
+				38B2090D1B421D2C001224A3 /* LaunchScreen.xib */,
+				38B209021B421D2C001224A3 /* TapGrid.xcdatamodeld */,
+				38B208FB1B421D2C001224A3 /* Supporting Files */,
+			);
+			path = TapGrid;
+			sourceTree = "<group>";
+		};
+		38B208FB1B421D2C001224A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38B208FC1B421D2C001224A3 /* Info.plist */,
+				38B208FD1B421D2C001224A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38B209171B421D2C001224A3 /* TapGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				38B2091A1B421D2C001224A3 /* TapGridTests.m */,
+				38B209181B421D2C001224A3 /* Supporting Files */,
+			);
+			path = TapGridTests;
+			sourceTree = "<group>";
+		};
+		38B209181B421D2C001224A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38B209191B421D2C001224A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38B208F71B421D2C001224A3 /* TapGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B2091E1B421D2C001224A3 /* Build configuration list for PBXNativeTarget "TapGrid" */;
+			buildPhases = (
+				38B208F41B421D2C001224A3 /* Sources */,
+				38B208F51B421D2C001224A3 /* Frameworks */,
+				38B208F61B421D2C001224A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGrid;
+			productName = TapGrid;
+			productReference = 38B208F81B421D2C001224A3 /* TapGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38B209131B421D2C001224A3 /* TapGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B209211B421D2C001224A3 /* Build configuration list for PBXNativeTarget "TapGridTests" */;
+			buildPhases = (
+				38B209101B421D2C001224A3 /* Sources */,
+				38B209111B421D2C001224A3 /* Frameworks */,
+				38B209121B421D2C001224A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B209161B421D2C001224A3 /* PBXTargetDependency */,
+			);
+			name = TapGridTests;
+			productName = TapGridTests;
+			productReference = 38B209141B421D2C001224A3 /* TapGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38B208F01B421D2C001224A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = apptrocious;
+				TargetAttributes = {
+					38B208F71B421D2C001224A3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					38B209131B421D2C001224A3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 38B208F71B421D2C001224A3;
+					};
+				};
+			};
+			buildConfigurationList = 38B208F31B421D2C001224A3 /* Build configuration list for PBXProject "TapGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38B208EF1B421D2C001224A3;
+			productRefGroup = 38B208F91B421D2C001224A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38B208F71B421D2C001224A3 /* TapGrid */,
+				38B209131B421D2C001224A3 /* TapGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38B208F61B421D2C001224A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B2090A1B421D2C001224A3 /* Main.storyboard in Resources */,
+				38B2090F1B421D2C001224A3 /* LaunchScreen.xib in Resources */,
+				38B2090C1B421D2C001224A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B209121B421D2C001224A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38B208F41B421D2C001224A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B209011B421D2C001224A3 /* AppDelegate.m in Sources */,
+				38B208FE1B421D2C001224A3 /* main.m in Sources */,
+				38B209071B421D2C001224A3 /* ViewController.m in Sources */,
+				38B209041B421D2C001224A3 /* TapGrid.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B209101B421D2C001224A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B2091B1B421D2C001224A3 /* TapGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38B209161B421D2C001224A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B208F71B421D2C001224A3 /* TapGrid */;
+			targetProxy = 38B209151B421D2C001224A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38B209081B421D2C001224A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B209091B421D2C001224A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38B2090D1B421D2C001224A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B2090E1B421D2C001224A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38B2091C1B421D2C001224A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38B2091D1B421D2C001224A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38B2091F1B421D2C001224A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38B209201B421D2C001224A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38B209221B421D2C001224A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGrid.app/TapGrid";
+			};
+			name = Debug;
+		};
+		38B209231B421D2C001224A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGrid.app/TapGrid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38B208F31B421D2C001224A3 /* Build configuration list for PBXProject "TapGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B2091C1B421D2C001224A3 /* Debug */,
+				38B2091D1B421D2C001224A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B2091E1B421D2C001224A3 /* Build configuration list for PBXNativeTarget "TapGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B2091F1B421D2C001224A3 /* Debug */,
+				38B209201B421D2C001224A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38B209211B421D2C001224A3 /* Build configuration list for PBXNativeTarget "TapGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B209221B421D2C001224A3 /* Debug */,
+				38B209231B421D2C001224A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38B209021B421D2C001224A3 /* TapGrid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38B209031B421D2C001224A3 /* TapGrid.xcdatamodel */,
+			);
+			currentVersion = 38B209031B421D2C001224A3 /* TapGrid.xcdatamodel */;
+			path = TapGrid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38B208F01B421D2C001224A3 /* Project object */;
+}
