@@ -11,9 +11,12 @@
 @implementation tapButton
 
 -(void)set: (int)number{
-    
     [self setTitle:[NSString stringWithFormat:@"%d", number] forState:UIControlStateNormal];
-    
+    self.rank = number % 10;
+}
+
+-(int) getRank{
+    return self.rank;
 }
 
 @end

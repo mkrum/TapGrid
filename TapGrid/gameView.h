@@ -11,6 +11,9 @@
 
 
 @interface gameView : UIViewController
+
+@property int currentRank;
+
 @property (weak, nonatomic) IBOutlet tapButton *button1;
 @property (weak, nonatomic) IBOutlet tapButton *button2;
 @property (weak, nonatomic) IBOutlet tapButton *button3;
