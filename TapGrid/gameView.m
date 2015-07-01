@@ -26,6 +26,7 @@
         numbers[i] = numbers[rand];
         numbers[rand] = temp;
     }
+    
     [_button1 set: numbers[0]];
     [_button2 set: numbers[1]];
     [_button3 set: numbers[2]];
@@ -35,6 +36,7 @@
     [_button7 set: numbers[6]];
     [_button8 set: numbers[7]];
     [_button9 set: numbers[8]];
+    
 }
 
 @end
