@@ -10,13 +10,19 @@
 
 @implementation tapButton
 
--(void)set: (int)number{
-    [self setTitle:[NSString stringWithFormat:@"%d", number] forState:UIControlStateNormal];
-    self.rank = number % 10;
+-(void)set: (NSNumber*)number{
+    _number = number;
+    [self setTitle:[number stringValue] forState:UIControlStateNormal];
 }
 
--(int) getRank{
-    return self.rank;
+-(NSNumber*) getNumber {
+    return _number;
 }
+
+-(void) increase: (NSNumber*) add{
+    _number = [NSNumber numberWithInt:[_number intValue] +[add intValue]];
+    [self set:_number];
+}
+
 
 @end

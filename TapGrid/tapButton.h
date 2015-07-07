@@ -10,9 +10,12 @@
 #include <stdlib.h>
 
 @interface tapButton : UIButton
-@property int rank;
+@property NSNumber* number; //literally the number
 
--(void)set: (int) number;
--(int)getRank;
+-(void)set: (NSNumber*) number;
+-(NSNumber*)getNumber;
+-(void)increase: (NSNumber *) add;
+
+
 
 @end

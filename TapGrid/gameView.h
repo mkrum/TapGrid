@@ -12,8 +12,10 @@
 
 @interface gameView : UIViewController
 
-@property int currentRank;
-
+@property NSNumber* currentRank;
+@property NSMutableArray *numbers;
+@property NSTimer *timer;
+@property int seconds;
 @property (weak, nonatomic) IBOutlet tapButton *button1;
 @property (weak, nonatomic) IBOutlet tapButton *button2;
 @property (weak, nonatomic) IBOutlet tapButton *button3;
@@ -24,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet tapButton *button8;
 @property (weak, nonatomic) IBOutlet tapButton *button9;
 
+@property (strong, nonatomic) IBOutlet UILabel *timerLabel;
 
 
 @end
