@@ -7,6 +7,7 @@
 //
 
 #import "gameView.h"
+#import "loseScreen.h"
 
 @implementation gameView
 
@@ -48,6 +49,7 @@
     [_button9 set: _numbers[8]];
     _timerLabel.text = @"Start!";
     [self set];
+    [self startTimer:10];
     
 }
 
@@ -61,8 +63,8 @@
     _seconds = _seconds - 1;
     _timerLabel.text = [[NSNumber numberWithInt:_seconds] stringValue];
     if (_seconds == 0){
-        NSLog(@"Failure");
         [_timer invalidate];
+        [self performSegueWithIdentifier:@"loseScreen" sender:self];
     }
 }
 
@@ -71,7 +73,6 @@
     for (int i = 0; i < 9; i++) {
         _numbers[i] = [NSNumber numberWithInt:[_numbers[i] intValue] + 9];
     }
-    [self startTimer:10];
     
     [self shuffle:_numbers];
 }
@@ -81,7 +82,7 @@
     _currentRank = [NSNumber numberWithInt:[_currentRank intValue]];
     
     if ([rank intValue] != ([_currentRank intValue] + 1)){
-        NSLog(@"Failure");
+        [self performSegueWithIdentifier:@"loseScreen" sender:self];
         
     }
         else{
@@ -91,6 +92,7 @@
             }
     if([rank intValue] % 9 == 0){
         [self set];
+        _seconds = 10;
     }
 
 }
@@ -122,6 +124,11 @@
 }
 - (IBAction)button9Press:(id)sender {
     [self buttonPress:sender];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    loseScreen *newScreen = segue.destinationViewController;
+    newScreen.score = _currentRank;
 }
 
 @end

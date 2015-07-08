@@ -16,6 +16,7 @@
 @property NSMutableArray *numbers;
 @property NSTimer *timer;
 @property int seconds;
+
 @property (weak, nonatomic) IBOutlet tapButton *button1;
 @property (weak, nonatomic) IBOutlet tapButton *button2;
 @property (weak, nonatomic) IBOutlet tapButton *button3;
