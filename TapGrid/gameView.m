@@ -49,23 +49,35 @@
     [_button9 set: _numbers[8]];
     _timerLabel.text = @"Start!";
     [self set];
-    [self startTimer:10];
+    _time = 10.0;
+    [self startTimer];
     
 }
 
--(void)startTimer: (int) length{
-    self.seconds = length;
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(runSeconds) userInfo:nil repeats:YES];
+-(void)startTimer{
+    
+    self.seconds = floor(_time);
+    _secondTimerLabel.text = [NSString stringWithFormat:@"%d:", self.seconds];
+    self.milliseconds = 1000 *(_time-floor(_time));
+    self.millitimer = [NSTimer scheduledTimerWithTimeInterval:.001 target:self selector:@selector(runMilliseconds) userInfo:nil repeats:YES];
     
 }
 
--(void)runSeconds{
-    _seconds = _seconds - 1;
-    _timerLabel.text = [[NSNumber numberWithInt:_seconds] stringValue];
+
+-(void) runMilliseconds{
+    
+    _timerLabel.text = [[NSNumber numberWithInt:_milliseconds] stringValue];
+    
+    if (_milliseconds == 0){
+        _seconds = _seconds - 1;
+        _secondTimerLabel.text = [NSString stringWithFormat:@"%d:", self.seconds];
+        _milliseconds = 1000;
+    }
+    _milliseconds = _milliseconds - 1;
     if (_seconds == 0){
-        [_timer invalidate];
         [self performSegueWithIdentifier:@"loseScreen" sender:self];
     }
+
 }
 
 -(void)set{
@@ -92,7 +104,9 @@
             }
     if([rank intValue] % 9 == 0){
         [self set];
-        _seconds = 10;
+        _time = _time*(.9);
+        [_millitimer invalidate];
+        [self startTimer];
     }
 
 }
