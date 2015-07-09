@@ -16,6 +16,8 @@
 		38B2090F1B421D2C001224A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B2090D1B421D2C001224A3 /* LaunchScreen.xib */; };
 		38B2091B1B421D2C001224A3 /* TapGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B2091A1B421D2C001224A3 /* TapGridTests.m */; };
 		38B209261B421FF5001224A3 /* gameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209251B421FF5001224A3 /* gameView.m */; };
+		38B209291B437752001224A3 /* tapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209281B437752001224A3 /* tapButton.m */; };
+		38B2092C1B4CC4BF001224A3 /* loseScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B2092B1B4CC4BF001224A3 /* loseScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		38B2091A1B421D2C001224A3 /* TapGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGridTests.m; sourceTree = "<group>"; };
 		38B209241B421FF5001224A3 /* gameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameView.h; sourceTree = "<group>"; };
 		38B209251B421FF5001224A3 /* gameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameView.m; sourceTree = "<group>"; };
+		38B209271B437752001224A3 /* tapButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tapButton.h; sourceTree = "<group>"; };
+		38B209281B437752001224A3 /* tapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tapButton.m; sourceTree = "<group>"; };
+		38B2092A1B4CC4BF001224A3 /* loseScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loseScreen.h; sourceTree = "<group>"; };
+		38B2092B1B4CC4BF001224A3 /* loseScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loseScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,10 @@
 				38B209081B421D2C001224A3 /* Main.storyboard */,
 				38B209241B421FF5001224A3 /* gameView.h */,
 				38B209251B421FF5001224A3 /* gameView.m */,
+				38B2092A1B4CC4BF001224A3 /* loseScreen.h */,
+				38B2092B1B4CC4BF001224A3 /* loseScreen.m */,
+				38B209271B437752001224A3 /* tapButton.h */,
+				38B209281B437752001224A3 /* tapButton.m */,
 				38B2090B1B421D2C001224A3 /* Images.xcassets */,
 				38B2090D1B421D2C001224A3 /* LaunchScreen.xib */,
 				38B209021B421D2C001224A3 /* TapGrid.xcdatamodeld */,
@@ -230,6 +240,8 @@
 				38B209011B421D2C001224A3 /* AppDelegate.m in Sources */,
 				38B208FE1B421D2C001224A3 /* main.m in Sources */,
 				38B209261B421FF5001224A3 /* gameView.m in Sources */,
+				38B209291B437752001224A3 /* tapButton.m in Sources */,
+				38B2092C1B4CC4BF001224A3 /* loseScreen.m in Sources */,
 				38B209071B421D2C001224A3 /* MenuViewController.m in Sources */,
 				38B209041B421D2C001224A3 /* TapGrid.xcdatamodeld in Sources */,
 			);
@@ -428,6 +440,7 @@
 				38B209201B421D2C001224A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38B209211B421D2C001224A3 /* Build configuration list for PBXNativeTarget "TapGridTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +449,7 @@
 				38B209231B421D2C001224A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
