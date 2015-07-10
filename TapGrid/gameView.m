@@ -75,6 +75,7 @@
     }
     _milliseconds = _milliseconds - 1;
     if (_seconds == 0){
+        [_millitimer invalidate];
         [self performSegueWithIdentifier:@"loseScreen" sender:self];
     }
 
@@ -94,6 +95,7 @@
     _currentRank = [NSNumber numberWithInt:[_currentRank intValue]];
     
     if ([rank intValue] != ([_currentRank intValue] + 1)){
+        [_millitimer invalidate];
         [self performSegueWithIdentifier:@"loseScreen" sender:self];
         
     }
