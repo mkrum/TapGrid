@@ -14,8 +14,10 @@
 
 @property NSNumber* currentRank;
 @property NSMutableArray *numbers;
-@property NSTimer *timer;
+@property NSTimer *millitimer;
 @property int seconds;
+@property int milliseconds;
+@property double time;
 
 @property (weak, nonatomic) IBOutlet tapButton *button1;
 @property (weak, nonatomic) IBOutlet tapButton *button2;
@@ -28,6 +30,7 @@
 @property (weak, nonatomic) IBOutlet tapButton *button9;
 
 @property (strong, nonatomic) IBOutlet UILabel *timerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *secondTimerLabel;
 
 
 @end
