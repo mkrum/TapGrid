@@ -5,6 +5,11 @@
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TapGridFont.ttf">
+            <string>TapGridFont</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -25,8 +30,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jcq-nM-IeF">
-                                <rect key="frame" x="256" y="283" width="88" height="33"/>
-                                <state key="normal" title="Play!">
+                                <rect key="frame" x="244" y="277" width="111" height="45"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="39"/>
+                                <state key="normal" title="PLAY!">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
@@ -36,16 +43,16 @@
                                     <segue destination="ddZ-Mr-HvV" kind="show" id="3aN-gS-Shg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Swk-D5-pPc">
-                                <rect key="frame" x="126" y="57" width="348" height="184"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Swk-D5-pPc">
+                                <rect key="frame" x="209" y="53" width="183" height="184"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="Jcq-nM-IeF" secondAttribute="centerY" id="0ZX-Us-sXb"/>
                             <constraint firstAttribute="centerX" secondItem="Jcq-nM-IeF" secondAttribute="centerX" id="2IL-Qh-XwM"/>
-                            <constraint firstItem="Jcq-nM-IeF" firstAttribute="top" secondItem="Swk-D5-pPc" secondAttribute="bottom" constant="72" id="OWg-2f-Dzn"/>
-                            <constraint firstItem="Swk-D5-pPc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="63" id="kAq-56-VCS"/>
+                            <constraint firstItem="Jcq-nM-IeF" firstAttribute="top" secondItem="Swk-D5-pPc" secondAttribute="bottom" constant="46" id="OWg-2f-Dzn"/>
+                            <constraint firstItem="Swk-D5-pPc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="108" id="kAq-56-VCS"/>
                             <constraint firstAttribute="centerX" secondItem="Swk-D5-pPc" secondAttribute="centerX" id="n3p-Cj-dSh"/>
                         </constraints>
                     </view>
@@ -203,29 +210,29 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="ffN-Cy-HC1"/>
-                                <exclude reference="JQZ-Zf-yqB"/>
-                                <exclude reference="iae-OX-nzy"/>
-                                <exclude reference="wmU-do-TF3"/>
-                                <exclude reference="8F2-mR-pGx"/>
-                                <exclude reference="zVJ-WL-Zeb"/>
-                                <exclude reference="GpY-Yq-JVh"/>
-                                <exclude reference="pIr-iV-Lee"/>
-                                <exclude reference="uw0-Kr-B86"/>
-                                <exclude reference="3pT-b2-3KA"/>
-                                <exclude reference="8zW-V0-DNx"/>
-                                <exclude reference="KbH-SU-Ju8"/>
-                                <exclude reference="OoY-HD-lDT"/>
-                                <exclude reference="GPM-ol-HMO"/>
-                                <exclude reference="wSG-tY-qbX"/>
-                                <exclude reference="4tV-ch-n96"/>
-                                <exclude reference="01d-4d-8lE"/>
-                                <exclude reference="OT8-8z-wCO"/>
-                                <exclude reference="QE2-cE-MQt"/>
-                                <exclude reference="YoQ-Yb-tGQ"/>
-                                <exclude reference="RDH-OK-uqY"/>
                                 <exclude reference="3IZ-Ir-TFa"/>
                                 <exclude reference="Erf-UG-Rtt"/>
                                 <exclude reference="RaZ-1O-avW"/>
+                                <exclude reference="JQZ-Zf-yqB"/>
+                                <exclude reference="iae-OX-nzy"/>
+                                <exclude reference="wmU-do-TF3"/>
+                                <exclude reference="3pT-b2-3KA"/>
+                                <exclude reference="8zW-V0-DNx"/>
+                                <exclude reference="01d-4d-8lE"/>
+                                <exclude reference="OT8-8z-wCO"/>
+                                <exclude reference="KbH-SU-Ju8"/>
+                                <exclude reference="OoY-HD-lDT"/>
+                                <exclude reference="QE2-cE-MQt"/>
+                                <exclude reference="YoQ-Yb-tGQ"/>
+                                <exclude reference="RDH-OK-uqY"/>
+                                <exclude reference="4tV-ch-n96"/>
+                                <exclude reference="GpY-Yq-JVh"/>
+                                <exclude reference="pIr-iV-Lee"/>
+                                <exclude reference="uw0-Kr-B86"/>
+                                <exclude reference="GPM-ol-HMO"/>
+                                <exclude reference="wSG-tY-qbX"/>
+                                <exclude reference="8F2-mR-pGx"/>
+                                <exclude reference="zVJ-WL-Zeb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -244,29 +251,29 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="ffN-Cy-HC1"/>
-                                <include reference="JQZ-Zf-yqB"/>
-                                <include reference="iae-OX-nzy"/>
-                                <include reference="wmU-do-TF3"/>
-                                <include reference="8F2-mR-pGx"/>
-                                <include reference="zVJ-WL-Zeb"/>
-                                <include reference="GpY-Yq-JVh"/>
-                                <include reference="pIr-iV-Lee"/>
-                                <include reference="uw0-Kr-B86"/>
-                                <include reference="3pT-b2-3KA"/>
-                                <include reference="8zW-V0-DNx"/>
-                                <include reference="KbH-SU-Ju8"/>
-                                <include reference="OoY-HD-lDT"/>
-                                <include reference="GPM-ol-HMO"/>
-                                <include reference="wSG-tY-qbX"/>
-                                <include reference="4tV-ch-n96"/>
-                                <include reference="01d-4d-8lE"/>
-                                <include reference="OT8-8z-wCO"/>
-                                <include reference="QE2-cE-MQt"/>
-                                <include reference="YoQ-Yb-tGQ"/>
-                                <include reference="RDH-OK-uqY"/>
                                 <include reference="3IZ-Ir-TFa"/>
                                 <include reference="Erf-UG-Rtt"/>
                                 <include reference="RaZ-1O-avW"/>
+                                <include reference="JQZ-Zf-yqB"/>
+                                <include reference="iae-OX-nzy"/>
+                                <include reference="wmU-do-TF3"/>
+                                <include reference="3pT-b2-3KA"/>
+                                <include reference="8zW-V0-DNx"/>
+                                <include reference="01d-4d-8lE"/>
+                                <include reference="OT8-8z-wCO"/>
+                                <include reference="KbH-SU-Ju8"/>
+                                <include reference="OoY-HD-lDT"/>
+                                <include reference="QE2-cE-MQt"/>
+                                <include reference="YoQ-Yb-tGQ"/>
+                                <include reference="RDH-OK-uqY"/>
+                                <include reference="4tV-ch-n96"/>
+                                <include reference="GpY-Yq-JVh"/>
+                                <include reference="pIr-iV-Lee"/>
+                                <include reference="uw0-Kr-B86"/>
+                                <include reference="GPM-ol-HMO"/>
+                                <include reference="wSG-tY-qbX"/>
+                                <include reference="8F2-mR-pGx"/>
+                                <include reference="zVJ-WL-Zeb"/>
                             </mask>
                         </variation>
                     </view>
@@ -394,4 +401,7 @@
     <resources>
         <image name="Menu Logo" width="80" height="80"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3aN-gS-Shg"/>
+    </inferredMetricsTieBreakers>
 </document>
