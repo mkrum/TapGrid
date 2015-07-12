@@ -11,5 +11,7 @@
 @interface loseScreen : UIViewController
 @property NSNumber *score;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *highScoreLabel;
+
 
 @end
