@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -65,7 +65,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="156" y="283" width="88" height="33"/>
                                 </variation>
                                 <connections>
@@ -83,6 +83,9 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="88"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="176.5" y="106" width="47.5" height="24.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="p" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6C-3b-wGE">
                                 <rect key="frame" x="328" y="54" width="57" height="85.5"/>
@@ -182,23 +185,32 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="74.5" y="71.5" width="251" height="58.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="David Durkin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSu-q6-Vx3">
                                 <rect key="frame" x="161" y="252" width="279" height="56"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.003598733377" green="0.1393455337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="86" y="245.5" width="229" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Michael Krumdick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0r-u4-UFx">
                                 <rect key="frame" x="108" y="127" width="384" height="78"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="39" y="143.5" width="322" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&amp;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkC-8m-IcP">
                                 <rect key="frame" x="271" y="199" width="58" height="51"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvP-YO-KCL">
@@ -250,6 +262,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="290" y="264.5" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button2Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="kLZ-tG-ECC"/>
                                 </connections>
@@ -260,18 +275,11 @@
                                 <state key="normal" title="3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="282" y="174" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button3Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="HPM-x8-Td7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e97-jo-HPG" customClass="tapButton">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
-                                <state key="normal" title="4">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="button4Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="lec-O5-S0f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2YT-6U-bfp" customClass="tapButton">
@@ -280,6 +288,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="81" y="264.5" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button5Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="XuR-OP-WGu"/>
                                 </connections>
@@ -290,6 +301,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="81" y="174" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button6Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="UEO-XD-q4y"/>
                                 </connections>
@@ -300,6 +314,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="185" y="344" width="30" height="47"/>
+                                </variation>
                                 <connections>
                                     <action selector="button7Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="zNl-UQ-RXx"/>
                                 </connections>
@@ -310,6 +327,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="282" y="332" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button8Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="yFa-mE-jLq"/>
                                 </connections>
@@ -320,6 +340,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="81" y="332" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button9Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="Dzu-ja-Jd0"/>
                                 </connections>
@@ -339,37 +362,54 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="151" y="53" width="98" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7t-uX-YFS">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="53" y="53" width="98" height="47"/>
+                                </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e97-jo-HPG" customClass="tapButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
+                                <state key="normal" title="4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="185" y="193" width="30" height="45"/>
+                                </variation>
+                                <connections>
+                                    <action selector="button4Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="lec-O5-S0f"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.79328791958434663" green="1" blue="0.78982758000452824" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="5Hb-5B-LcJ" secondAttribute="trailing" constant="64" id="01d-4d-8lE"/>
-                            <constraint firstItem="deR-T2-ltP" firstAttribute="top" secondItem="LER-g8-737" secondAttribute="bottom" constant="197" id="3IZ-Ir-TFa"/>
                             <constraint firstAttribute="centerY" secondItem="2YT-6U-bfp" secondAttribute="centerY" id="3pT-b2-3KA"/>
-                            <constraint firstItem="VUZ-Uk-HWu" firstAttribute="leading" secondItem="HQL-Qu-eeS" secondAttribute="leadingMargin" constant="65" id="4tV-ch-n96"/>
                             <constraint firstItem="tPW-Fg-Rwb" firstAttribute="leading" secondItem="HQL-Qu-eeS" secondAttribute="leadingMargin" constant="65" id="8F2-mR-pGx"/>
-                            <constraint firstItem="2YT-6U-bfp" firstAttribute="leading" secondItem="HQL-Qu-eeS" secondAttribute="leadingMargin" constant="65" id="8zW-V0-DNx"/>
                             <constraint firstItem="deR-T2-ltP" firstAttribute="top" secondItem="Ue7-4C-ILy" secondAttribute="bottom" constant="197" id="Erf-UG-Rtt"/>
                             <constraint firstAttribute="centerY" secondItem="fDp-5a-Cfi" secondAttribute="centerY" id="GPM-ol-HMO"/>
-                            <constraint firstItem="e97-jo-HPG" firstAttribute="leading" secondItem="tPW-Fg-Rwb" secondAttribute="trailing" constant="74" id="GpY-Yq-JVh"/>
                             <constraint firstItem="gMg-dP-mFh" firstAttribute="leading" secondItem="O7t-uX-YFS" secondAttribute="trailing" id="JQZ-Zf-yqB"/>
                             <constraint firstItem="Hul-2s-TzR" firstAttribute="top" secondItem="nCc-9U-McI" secondAttribute="bottom" constant="154" id="KbH-SU-Ju8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hul-2s-TzR" secondAttribute="trailing" constant="72" id="MyE-TM-raH"/>
                             <constraint firstAttribute="centerY" secondItem="5Hb-5B-LcJ" secondAttribute="centerY" id="OT8-8z-wCO"/>
-                            <constraint firstItem="Hul-2s-TzR" firstAttribute="leading" secondItem="e97-jo-HPG" secondAttribute="trailing" constant="67" id="OoY-HD-lDT"/>
-                            <constraint firstAttribute="centerY" secondItem="LER-g8-737" secondAttribute="centerY" constant="-88" id="QE2-cE-MQt"/>
+                            <constraint firstItem="VUZ-Uk-HWu" firstAttribute="leading" secondItem="HQL-Qu-eeS" secondAttribute="leadingMargin" constant="65" id="PTA-Pn-ZnC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ue7-4C-ILy" secondAttribute="trailing" constant="72" id="RDH-OK-uqY"/>
                             <constraint firstItem="deR-T2-ltP" firstAttribute="top" secondItem="VUZ-Uk-HWu" secondAttribute="bottom" constant="197" id="RaZ-1O-avW"/>
-                            <constraint firstItem="LER-g8-737" firstAttribute="leading" secondItem="VUZ-Uk-HWu" secondAttribute="trailing" constant="74" id="YoQ-Yb-tGQ"/>
+                            <constraint firstAttribute="centerX" secondItem="e97-jo-HPG" secondAttribute="centerX" id="Tb8-kE-S5b"/>
+                            <constraint firstItem="2YT-6U-bfp" firstAttribute="leading" secondItem="HQL-Qu-eeS" secondAttribute="leadingMargin" constant="65" id="Wlv-Dm-2Y2"/>
+                            <constraint firstItem="deR-T2-ltP" firstAttribute="top" secondItem="LER-g8-737" secondAttribute="bottom" constant="209" id="X1M-vp-M6q"/>
                             <constraint firstItem="O7t-uX-YFS" firstAttribute="top" secondItem="nCc-9U-McI" secondAttribute="bottom" constant="33" id="ffN-Cy-HC1"/>
                             <constraint firstAttribute="centerX" secondItem="gMg-dP-mFh" secondAttribute="centerX" id="iae-OX-nzy"/>
-                            <constraint firstItem="e97-jo-HPG" firstAttribute="top" secondItem="nCc-9U-McI" secondAttribute="bottom" constant="154" id="pIr-iV-Lee"/>
-                            <constraint firstAttribute="centerY" secondItem="e97-jo-HPG" secondAttribute="centerY" constant="111" id="uw0-Kr-B86"/>
+                            <constraint firstAttribute="centerX" secondItem="LER-g8-737" secondAttribute="centerX" id="k3F-gz-rah"/>
+                            <constraint firstItem="e97-jo-HPG" firstAttribute="top" secondItem="nCc-9U-McI" secondAttribute="bottom" constant="173" id="ny6-l0-ybf"/>
                             <constraint firstAttribute="centerX" secondItem="fDp-5a-Cfi" secondAttribute="centerX" id="wSG-tY-qbX"/>
                             <constraint firstItem="gMg-dP-mFh" firstAttribute="top" secondItem="nCc-9U-McI" secondAttribute="bottom" constant="33" id="wmU-do-TF3"/>
                             <constraint firstItem="tPW-Fg-Rwb" firstAttribute="top" secondItem="nCc-9U-McI" secondAttribute="bottom" constant="154" id="zVJ-WL-Zeb"/>
@@ -378,7 +418,6 @@
                             <mask key="subviews">
                                 <exclude reference="5Hb-5B-LcJ"/>
                                 <exclude reference="Hul-2s-TzR"/>
-                                <exclude reference="e97-jo-HPG"/>
                                 <exclude reference="2YT-6U-bfp"/>
                                 <exclude reference="tPW-Fg-Rwb"/>
                                 <exclude reference="LER-g8-737"/>
@@ -387,39 +426,37 @@
                                 <exclude reference="fDp-5a-Cfi"/>
                                 <exclude reference="gMg-dP-mFh"/>
                                 <exclude reference="O7t-uX-YFS"/>
+                                <exclude reference="e97-jo-HPG"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="ffN-Cy-HC1"/>
-                                <exclude reference="3IZ-Ir-TFa"/>
-                                <exclude reference="Erf-UG-Rtt"/>
-                                <exclude reference="RaZ-1O-avW"/>
                                 <exclude reference="JQZ-Zf-yqB"/>
                                 <exclude reference="iae-OX-nzy"/>
                                 <exclude reference="wmU-do-TF3"/>
-                                <exclude reference="3pT-b2-3KA"/>
-                                <exclude reference="8zW-V0-DNx"/>
-                                <exclude reference="01d-4d-8lE"/>
-                                <exclude reference="OT8-8z-wCO"/>
-                                <exclude reference="KbH-SU-Ju8"/>
-                                <exclude reference="OoY-HD-lDT"/>
-                                <exclude reference="QE2-cE-MQt"/>
-                                <exclude reference="YoQ-Yb-tGQ"/>
-                                <exclude reference="RDH-OK-uqY"/>
-                                <exclude reference="4tV-ch-n96"/>
-                                <exclude reference="GpY-Yq-JVh"/>
-                                <exclude reference="pIr-iV-Lee"/>
-                                <exclude reference="uw0-Kr-B86"/>
-                                <exclude reference="GPM-ol-HMO"/>
-                                <exclude reference="wSG-tY-qbX"/>
                                 <exclude reference="8F2-mR-pGx"/>
                                 <exclude reference="zVJ-WL-Zeb"/>
+                                <exclude reference="Tb8-kE-S5b"/>
+                                <exclude reference="ny6-l0-ybf"/>
+                                <exclude reference="3pT-b2-3KA"/>
+                                <exclude reference="Wlv-Dm-2Y2"/>
+                                <exclude reference="GPM-ol-HMO"/>
+                                <exclude reference="wSG-tY-qbX"/>
+                                <exclude reference="KbH-SU-Ju8"/>
+                                <exclude reference="MyE-TM-raH"/>
+                                <exclude reference="PTA-Pn-ZnC"/>
+                                <exclude reference="k3F-gz-rah"/>
+                                <exclude reference="01d-4d-8lE"/>
+                                <exclude reference="OT8-8z-wCO"/>
+                                <exclude reference="RDH-OK-uqY"/>
+                                <exclude reference="Erf-UG-Rtt"/>
+                                <exclude reference="RaZ-1O-avW"/>
+                                <exclude reference="X1M-vp-M6q"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="5Hb-5B-LcJ"/>
                                 <include reference="Hul-2s-TzR"/>
-                                <include reference="e97-jo-HPG"/>
                                 <include reference="2YT-6U-bfp"/>
                                 <include reference="tPW-Fg-Rwb"/>
                                 <include reference="LER-g8-737"/>
@@ -428,32 +465,31 @@
                                 <include reference="fDp-5a-Cfi"/>
                                 <include reference="gMg-dP-mFh"/>
                                 <include reference="O7t-uX-YFS"/>
+                                <include reference="e97-jo-HPG"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="ffN-Cy-HC1"/>
-                                <include reference="3IZ-Ir-TFa"/>
-                                <include reference="Erf-UG-Rtt"/>
-                                <include reference="RaZ-1O-avW"/>
                                 <include reference="JQZ-Zf-yqB"/>
                                 <include reference="iae-OX-nzy"/>
                                 <include reference="wmU-do-TF3"/>
-                                <include reference="3pT-b2-3KA"/>
-                                <include reference="8zW-V0-DNx"/>
-                                <include reference="01d-4d-8lE"/>
-                                <include reference="OT8-8z-wCO"/>
-                                <include reference="KbH-SU-Ju8"/>
-                                <include reference="OoY-HD-lDT"/>
-                                <include reference="QE2-cE-MQt"/>
-                                <include reference="YoQ-Yb-tGQ"/>
-                                <include reference="RDH-OK-uqY"/>
-                                <include reference="4tV-ch-n96"/>
-                                <include reference="GpY-Yq-JVh"/>
-                                <include reference="pIr-iV-Lee"/>
-                                <include reference="uw0-Kr-B86"/>
-                                <include reference="GPM-ol-HMO"/>
-                                <include reference="wSG-tY-qbX"/>
                                 <include reference="8F2-mR-pGx"/>
                                 <include reference="zVJ-WL-Zeb"/>
+                                <include reference="Tb8-kE-S5b"/>
+                                <include reference="ny6-l0-ybf"/>
+                                <include reference="3pT-b2-3KA"/>
+                                <include reference="Wlv-Dm-2Y2"/>
+                                <include reference="GPM-ol-HMO"/>
+                                <include reference="wSG-tY-qbX"/>
+                                <include reference="KbH-SU-Ju8"/>
+                                <include reference="MyE-TM-raH"/>
+                                <include reference="PTA-Pn-ZnC"/>
+                                <include reference="k3F-gz-rah"/>
+                                <include reference="01d-4d-8lE"/>
+                                <include reference="OT8-8z-wCO"/>
+                                <include reference="RDH-OK-uqY"/>
+                                <include reference="Erf-UG-Rtt"/>
+                                <include reference="RaZ-1O-avW"/>
+                                <include reference="X1M-vp-M6q"/>
                             </mask>
                         </variation>
                     </view>
@@ -493,12 +529,18 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="55" y="276.5" width="290" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58N-KA-h7q">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="75"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="108.5" y="341" width="183.5" height="87.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -507,6 +549,9 @@
                                     <color key="titleColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="137.5" y="453.5" width="129" height="71"/>
+                                </variation>
                                 <connections>
                                     <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
                                 </connections>
@@ -518,10 +563,19 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="147.5" y="550.5" width="93" height="71"/>
+                                </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I6m-aO-yR8"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBT-JO-qWG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76567416691840096" blue="0.82450122684560034" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -529,8 +583,10 @@
                             <constraint firstItem="58N-KA-h7q" firstAttribute="top" secondItem="AU8-M9-PZk" secondAttribute="bottom" constant="17.5" id="2Bb-uG-Ybo"/>
                             <constraint firstAttribute="centerX" secondItem="58N-KA-h7q" secondAttribute="centerX" id="7e2-ZV-heS"/>
                             <constraint firstAttribute="centerX" secondItem="b4n-CW-bcO" secondAttribute="centerX" constant="-2" id="MkE-mb-dSl"/>
+                            <constraint firstAttribute="centerX" secondItem="IBT-JO-qWG" secondAttribute="centerX" id="Q9u-hM-6RP"/>
                             <constraint firstItem="ktk-dn-xH0" firstAttribute="top" secondItem="b4n-CW-bcO" secondAttribute="bottom" constant="26" id="QC7-dG-uxg"/>
                             <constraint firstAttribute="centerX" secondItem="ktk-dn-xH0" secondAttribute="centerX" constant="6" id="Vmd-67-cfO"/>
+                            <constraint firstItem="AU8-M9-PZk" firstAttribute="top" secondItem="IBT-JO-qWG" secondAttribute="bottom" constant="83.5" id="Wqe-DO-xZq"/>
                             <constraint firstItem="b4n-CW-bcO" firstAttribute="top" secondItem="58N-KA-h7q" secondAttribute="bottom" constant="25" id="hid-1e-RbY"/>
                             <constraint firstAttribute="centerY" secondItem="AU8-M9-PZk" secondAttribute="centerY" constant="0.5" id="iKH-Oo-TNS">
                                 <variation key="widthClass=compact" constant="0.0"/>
@@ -543,12 +599,15 @@
                                 <exclude reference="58N-KA-h7q"/>
                                 <exclude reference="b4n-CW-bcO"/>
                                 <exclude reference="ktk-dn-xH0"/>
+                                <exclude reference="IBT-JO-qWG"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2Bb-uG-Ybo"/>
-                                <exclude reference="7e2-ZV-heS"/>
+                                <exclude reference="Q9u-hM-6RP"/>
+                                <exclude reference="Wqe-DO-xZq"/>
                                 <exclude reference="iKH-Oo-TNS"/>
                                 <exclude reference="muy-yJ-xQY"/>
+                                <exclude reference="2Bb-uG-Ybo"/>
+                                <exclude reference="7e2-ZV-heS"/>
                                 <exclude reference="MkE-mb-dSl"/>
                                 <exclude reference="hid-1e-RbY"/>
                                 <exclude reference="QC7-dG-uxg"/>
@@ -561,12 +620,15 @@
                                 <include reference="58N-KA-h7q"/>
                                 <include reference="b4n-CW-bcO"/>
                                 <include reference="ktk-dn-xH0"/>
+                                <include reference="IBT-JO-qWG"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2Bb-uG-Ybo"/>
-                                <include reference="7e2-ZV-heS"/>
+                                <include reference="Q9u-hM-6RP"/>
+                                <include reference="Wqe-DO-xZq"/>
                                 <include reference="iKH-Oo-TNS"/>
                                 <include reference="muy-yJ-xQY"/>
+                                <include reference="2Bb-uG-Ybo"/>
+                                <include reference="7e2-ZV-heS"/>
                                 <include reference="MkE-mb-dSl"/>
                                 <include reference="hid-1e-RbY"/>
                                 <include reference="QC7-dG-uxg"/>
@@ -575,6 +637,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="highScoreLabel" destination="IBT-JO-qWG" id="cxN-SN-7Ta"/>
                         <outlet property="scoreLabel" destination="58N-KA-h7q" id="Xcj-VE-ZG9"/>
                     </connections>
                 </viewController>
@@ -585,6 +648,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="WPu-v5-fMf"/>
-        <segue reference="Yz9-SS-E7m"/>
+        <segue reference="I6m-aO-yR8"/>
     </inferredMetricsTieBreakers>
 </document>
