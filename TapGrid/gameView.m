@@ -57,7 +57,7 @@
 -(void)startTimer{
     
     self.seconds = floor(_time);
-    _secondTimerLabel.text = [NSString stringWithFormat:@"%d:", self.seconds];
+    _secondTimerLabel.text = [NSString stringWithFormat:@"%d.", self.seconds];
     self.milliseconds = 1000 *(_time-floor(_time));
     self.millitimer = [NSTimer scheduledTimerWithTimeInterval:.001 target:self selector:@selector(runMilliseconds) userInfo:nil repeats:YES];
     
@@ -70,7 +70,7 @@
     
     if (_milliseconds == 0){
         _seconds = _seconds - 1;
-        _secondTimerLabel.text = [NSString stringWithFormat:@"%d:", self.seconds];
+        _secondTimerLabel.text = [NSString stringWithFormat:@"%d.", self.seconds];
         _milliseconds = 1000;
     }
     _milliseconds = _milliseconds - 1;
