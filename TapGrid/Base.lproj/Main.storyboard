@@ -29,6 +29,12 @@
             <string>TapGridFont</string>
             <string>TapGridFont</string>
             <string>TapGridFont</string>
+            <string>TapGridFont</string>
+            <string>TapGridFont</string>
+            <string>TapGridFont</string>
+            <string>TapGridFont</string>
+            <string>TapGridFont</string>
+            <string>TapGridFont</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -116,6 +122,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0jq-Jb-2Q8" kind="show" id="NWx-i7-mDa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.81672986671845238" green="0.81288533561300602" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -156,6 +165,73 @@
             </objects>
             <point key="canvasLocation" x="309" y="348"/>
         </scene>
+        <!--Credits-->
+        <scene sceneID="AJa-Zy-QK7">
+            <objects>
+                <viewController title="Credits" id="0jq-Jb-2Q8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iq9-Cd-3VD"/>
+                        <viewControllerLayoutGuide type="bottom" id="ER7-rI-JzL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZLv-Ue-0aE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Created By" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RST-Vv-y8j">
+                                <rect key="frame" x="115" y="60" width="370" height="81"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="David Durkin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSu-q6-Vx3">
+                                <rect key="frame" x="161" y="252" width="279" height="56"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
+                                <color key="textColor" red="0.003598733377" green="0.1393455337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Michael Krumdick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0r-u4-UFx">
+                                <rect key="frame" x="108" y="127" width="384" height="78"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&amp;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkC-8m-IcP">
+                                <rect key="frame" x="271" y="199" width="58" height="51"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvP-YO-KCL">
+                                <rect key="frame" x="35" y="28" width="101" height="43"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.89954377689999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Yz9-SS-E7m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="RST-Vv-y8j" secondAttribute="centerY" constant="199.5" id="5MT-Fx-EKH"/>
+                            <constraint firstAttribute="centerY" secondItem="kkC-8m-IcP" secondAttribute="centerY" constant="81.5" id="8v8-5T-cxJ"/>
+                            <constraint firstAttribute="centerX" secondItem="KSu-q6-Vx3" secondAttribute="centerX" constant="-0.5" id="KRj-16-jC2"/>
+                            <constraint firstAttribute="centerY" secondItem="l0r-u4-UFx" secondAttribute="centerY" constant="133" id="Pxl-W3-Hq2"/>
+                            <constraint firstAttribute="centerX" secondItem="RST-Vv-y8j" secondAttribute="centerX" id="TgC-YJ-rLE"/>
+                            <constraint firstAttribute="centerX" secondItem="kkC-8m-IcP" secondAttribute="centerX" id="cXu-05-l1V"/>
+                            <constraint firstAttribute="centerX" secondItem="l0r-u4-UFx" secondAttribute="centerX" id="tKu-fN-D4a"/>
+                            <constraint firstAttribute="centerY" secondItem="KSu-q6-Vx3" secondAttribute="centerY" constant="31" id="w6t-TQ-XZA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uRa-Sq-OAJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wuc-gE-SUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671" y="1086"/>
+        </scene>
         <!--Game View-->
         <scene sceneID="bHM-ZZ-5r0">
             <objects>
@@ -170,7 +246,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hb-5B-LcJ" customClass="tapButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
                                 <state key="normal" title="2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -261,13 +336,13 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMg-dP-mFh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7t-uX-YFS">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -510,5 +585,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="WPu-v5-fMf"/>
+        <segue reference="Yz9-SS-E7m"/>
     </inferredMetricsTieBreakers>
 </document>

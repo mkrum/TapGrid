@@ -10,37 +10,85 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 APPtrocious. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2015 APPtrocious. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="410" width="441" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="APPtrocious Logo" translatesAutoresizingMaskIntoConstraints="NO" id="9hh-C4-hGm">
-                    <rect key="frame" x="79" y="194" width="323" height="228"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="228" id="hcV-Pa-Xkd"/>
-                    </constraints>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BxD-8v-3NW">
+                    <rect key="frame" x="202" y="208" width="80" height="80"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="2bw-dj-CtK">
-                    <rect key="frame" x="120" y="39" width="240" height="128"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="WEi-dp-sIm">
+                    <rect key="frame" x="363" y="97" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="T3M-07-r2T">
+                    <rect key="frame" x="202" y="8" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="qRE-0Y-U9T">
+                    <rect key="frame" x="363" y="324" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bdv-VU-5PE">
+                    <rect key="frame" x="51" y="324" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="vml-ea-Y0Z">
+                    <rect key="frame" x="438" y="208" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="soh-Jf-roU">
+                    <rect key="frame" x="-38" y="-26" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="eA3-6G-LZh">
+                    <rect key="frame" x="438" y="-26" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="On7-jk-zrL">
+                    <rect key="frame" x="-38" y="208" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="5SI-5e-bIk">
+                    <rect key="frame" x="432" y="439" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ALm-6Q-qVd">
+                    <rect key="frame" x="-38" y="439" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="LsI-ru-0Eh">
+                    <rect key="frame" x="208" y="439" width="80" height="80"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="GnY-me-ezv">
+                    <rect key="frame" x="51" y="97" width="80" height="80"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerX" secondItem="2bw-dj-CtK" secondAttribute="centerX" id="0mm-FW-mUq"/>
-                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="9hh-C4-hGm" secondAttribute="bottom" constant="17" id="7er-d6-vBB"/>
-                <constraint firstAttribute="centerY" secondItem="2bw-dj-CtK" secondAttribute="centerY" constant="127" id="8VB-RF-JaE"/>
-                <constraint firstAttribute="centerY" secondItem="9hh-C4-hGm" secondAttribute="centerY" constant="-68" id="Go9-xA-Jgz"/>
+                <constraint firstAttribute="centerY" secondItem="bdv-VU-5PE" secondAttribute="centerY" constant="-124" id="0G5-hR-NT1"/>
+                <constraint firstAttribute="centerY" secondItem="soh-Jf-roU" secondAttribute="centerY" constant="226" id="1kD-b6-Kye"/>
+                <constraint firstAttribute="centerY" secondItem="WEi-dp-sIm" secondAttribute="centerY" constant="103" id="1uA-Mp-HC3"/>
+                <constraint firstAttribute="centerY" secondItem="ALm-6Q-qVd" secondAttribute="centerY" constant="-239" id="6ss-QB-vmd"/>
+                <constraint firstAttribute="centerY" secondItem="LsI-ru-0Eh" secondAttribute="centerY" constant="-239" id="7t8-gg-2Ag"/>
+                <constraint firstAttribute="centerY" secondItem="qRE-0Y-U9T" secondAttribute="centerY" constant="-124" id="90z-ZS-WSH"/>
+                <constraint firstAttribute="centerX" secondItem="T3M-07-r2T" secondAttribute="centerX" constant="-2" id="Dco-cr-zoz"/>
+                <constraint firstAttribute="centerY" secondItem="T3M-07-r2T" secondAttribute="centerY" constant="192" id="EzS-Ua-UG2"/>
+                <constraint firstAttribute="centerX" secondItem="soh-Jf-roU" secondAttribute="centerX" constant="238" id="HDW-5l-o7o"/>
+                <constraint firstAttribute="centerX" secondItem="BxD-8v-3NW" secondAttribute="centerX" constant="-2" id="HWd-Lo-pv0"/>
+                <constraint firstAttribute="centerX" secondItem="5SI-5e-bIk" secondAttribute="centerX" constant="-232" id="HfP-YI-bmO"/>
+                <constraint firstAttribute="centerX" secondItem="qRE-0Y-U9T" secondAttribute="centerX" constant="-163" id="IXF-rE-ajQ"/>
+                <constraint firstAttribute="centerY" secondItem="eA3-6G-LZh" secondAttribute="centerY" constant="226" id="Kg5-m3-Bsk"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
-                <constraint firstItem="9hh-C4-hGm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="194" id="SbB-PS-ebr"/>
-                <constraint firstItem="9hh-C4-hGm" firstAttribute="top" secondItem="2bw-dj-CtK" secondAttribute="bottom" constant="17" id="XfP-82-kp5"/>
+                <constraint firstAttribute="centerY" secondItem="5SI-5e-bIk" secondAttribute="centerY" constant="-239" id="Rk5-77-A9b"/>
+                <constraint firstAttribute="centerY" secondItem="GnY-me-ezv" secondAttribute="centerY" constant="103" id="STc-1a-NON"/>
+                <constraint firstAttribute="centerY" secondItem="BxD-8v-3NW" secondAttribute="centerY" constant="-8" id="TBk-VV-V6a"/>
+                <constraint firstAttribute="centerY" secondItem="8ie-xW-0ye" secondAttribute="centerY" constant="-180.5" id="YaE-Ts-7Af"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
-                <constraint firstItem="2bw-dj-CtK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="49" id="dZF-Xb-9el"/>
-                <constraint firstAttribute="centerX" secondItem="9hh-C4-hGm" secondAttribute="centerX" id="j8W-Qh-yFj"/>
-                <constraint firstAttribute="centerX" secondItem="9hh-C4-hGm" secondAttribute="centerX" constant="-0.5" id="jmg-Nz-0Id"/>
-                <constraint firstAttribute="centerX" secondItem="2bw-dj-CtK" secondAttribute="centerX" id="qng-jy-DZU"/>
+                <constraint firstAttribute="centerX" secondItem="vml-ea-Y0Z" secondAttribute="centerX" constant="-238" id="e9F-Gl-FCg"/>
+                <constraint firstAttribute="centerY" secondItem="On7-jk-zrL" secondAttribute="centerY" constant="-8" id="f9o-I8-ETc"/>
+                <constraint firstAttribute="centerX" secondItem="ALm-6Q-qVd" secondAttribute="centerX" constant="238" id="fcd-0I-aMz"/>
+                <constraint firstAttribute="centerY" secondItem="vml-ea-Y0Z" secondAttribute="centerY" constant="-8" id="gee-Lt-Rtn"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" constant="-0.5" id="iyv-1a-37t"/>
+                <constraint firstAttribute="centerX" secondItem="GnY-me-ezv" secondAttribute="centerX" constant="149" id="jro-qy-xMy"/>
+                <constraint firstAttribute="centerX" secondItem="On7-jk-zrL" secondAttribute="centerX" constant="238" id="kdi-Qs-SYU"/>
+                <constraint firstAttribute="centerX" secondItem="WEi-dp-sIm" secondAttribute="centerX" constant="-163" id="oKb-Ap-Qfd"/>
+                <constraint firstAttribute="centerX" secondItem="LsI-ru-0Eh" secondAttribute="centerX" constant="-8" id="wdr-CH-PrY"/>
+                <constraint firstAttribute="centerX" secondItem="eA3-6G-LZh" secondAttribute="centerX" constant="-238" id="wzT-fo-XaO"/>
+                <constraint firstAttribute="centerX" secondItem="bdv-VU-5PE" secondAttribute="centerX" constant="149" id="ypq-vM-Okm"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -48,7 +96,6 @@
         </view>
     </objects>
     <resources>
-        <image name="APPtrocious Logo" width="370" height="556"/>
         <image name="Menu Logo" width="80" height="80"/>
     </resources>
 </document>
