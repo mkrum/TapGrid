@@ -251,7 +251,6 @@
         <!--Game View-->
         <scene sceneID="bHM-ZZ-5r0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="89u-0q-Mhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ddZ-Mr-HvV" customClass="gameView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nCc-9U-McI"/>
@@ -267,6 +266,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="382" y="264.5" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button2Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="kLZ-tG-ECC"/>
                                 </connections>
@@ -277,6 +279,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="382" y="172" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button3Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="HPM-x8-Td7"/>
                                 </connections>
@@ -287,6 +292,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="191" y="264.5" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button5Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="XuR-OP-WGu"/>
                                 </connections>
@@ -297,6 +305,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="191" y="172" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button6Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="UEO-XD-q4y"/>
                                 </connections>
@@ -307,6 +318,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="285" y="359" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button7Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="zNl-UQ-RXx"/>
                                 </connections>
@@ -317,6 +331,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="382" y="359" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button8Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="yFa-mE-jLq"/>
                                 </connections>
@@ -327,6 +344,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="191" y="359" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button9Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="Dzu-ja-Jd0"/>
                                 </connections>
@@ -336,12 +356,18 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="251" y="53" width="98" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7t-uX-YFS">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="153" y="53" width="98" height="47"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e97-jo-HPG" customClass="tapButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -349,6 +375,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="285" y="172" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button4Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="lec-O5-S0f"/>
                                 </connections>
@@ -359,6 +388,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="285" y="264.5" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button1Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="XYM-5P-RPj"/>
                                 </connections>
@@ -409,25 +441,25 @@
                                 <exclude reference="JQZ-Zf-yqB"/>
                                 <exclude reference="iae-OX-nzy"/>
                                 <exclude reference="wmU-do-TF3"/>
-                                <exclude reference="oka-UK-dDP"/>
-                                <exclude reference="v77-TK-fyI"/>
-                                <exclude reference="BtI-gk-pnX"/>
-                                <exclude reference="Tb8-kE-S5b"/>
-                                <exclude reference="dpq-hX-fsC"/>
                                 <exclude reference="3pT-b2-3KA"/>
                                 <exclude reference="c0t-Yb-fuE"/>
-                                <exclude reference="GPM-ol-HMO"/>
-                                <exclude reference="wSG-tY-qbX"/>
-                                <exclude reference="NgI-fa-Fpk"/>
-                                <exclude reference="a3v-kL-rDa"/>
-                                <exclude reference="6z5-qH-6HL"/>
-                                <exclude reference="b1l-yR-e8s"/>
                                 <exclude reference="OT8-8z-wCO"/>
                                 <exclude reference="gq3-cg-OH5"/>
+                                <exclude reference="NgI-fa-Fpk"/>
+                                <exclude reference="a3v-kL-rDa"/>
                                 <exclude reference="ibv-Uc-luD"/>
                                 <exclude reference="k3F-gz-rah"/>
                                 <exclude reference="25Y-d8-15Y"/>
                                 <exclude reference="hYL-gt-E6F"/>
+                                <exclude reference="6z5-qH-6HL"/>
+                                <exclude reference="b1l-yR-e8s"/>
+                                <exclude reference="BtI-gk-pnX"/>
+                                <exclude reference="Tb8-kE-S5b"/>
+                                <exclude reference="dpq-hX-fsC"/>
+                                <exclude reference="GPM-ol-HMO"/>
+                                <exclude reference="wSG-tY-qbX"/>
+                                <exclude reference="oka-UK-dDP"/>
+                                <exclude reference="v77-TK-fyI"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -449,25 +481,25 @@
                                 <include reference="JQZ-Zf-yqB"/>
                                 <include reference="iae-OX-nzy"/>
                                 <include reference="wmU-do-TF3"/>
-                                <include reference="oka-UK-dDP"/>
-                                <include reference="v77-TK-fyI"/>
-                                <include reference="BtI-gk-pnX"/>
-                                <include reference="Tb8-kE-S5b"/>
-                                <include reference="dpq-hX-fsC"/>
                                 <include reference="3pT-b2-3KA"/>
                                 <include reference="c0t-Yb-fuE"/>
-                                <include reference="GPM-ol-HMO"/>
-                                <include reference="wSG-tY-qbX"/>
-                                <include reference="NgI-fa-Fpk"/>
-                                <include reference="a3v-kL-rDa"/>
-                                <include reference="6z5-qH-6HL"/>
-                                <include reference="b1l-yR-e8s"/>
                                 <include reference="OT8-8z-wCO"/>
                                 <include reference="gq3-cg-OH5"/>
+                                <include reference="NgI-fa-Fpk"/>
+                                <include reference="a3v-kL-rDa"/>
                                 <include reference="ibv-Uc-luD"/>
                                 <include reference="k3F-gz-rah"/>
                                 <include reference="25Y-d8-15Y"/>
                                 <include reference="hYL-gt-E6F"/>
+                                <include reference="6z5-qH-6HL"/>
+                                <include reference="b1l-yR-e8s"/>
+                                <include reference="BtI-gk-pnX"/>
+                                <include reference="Tb8-kE-S5b"/>
+                                <include reference="dpq-hX-fsC"/>
+                                <include reference="GPM-ol-HMO"/>
+                                <include reference="wSG-tY-qbX"/>
+                                <include reference="oka-UK-dDP"/>
+                                <include reference="v77-TK-fyI"/>
                             </mask>
                         </variation>
                     </view>
@@ -486,6 +518,7 @@
                         <segue destination="8xv-eu-3bm" kind="show" identifier="loseScreen" id="ezf-En-Kgk"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89u-0q-Mhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1197" y="355"/>
         </scene>
@@ -506,6 +539,9 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="75"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="209" y="244" width="183.5" height="87.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -514,6 +550,9 @@
                                     <color key="titleColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="236" y="333" width="129" height="71"/>
+                                </variation>
                                 <connections>
                                     <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
                                 </connections>
@@ -525,6 +564,9 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="253.5" y="405" width="93" height="71"/>
+                                </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I6m-aO-yR8"/>
                                 </connections>
@@ -534,12 +576,18 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="251" y="87.5" width="98" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Score was:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AU8-M9-PZk">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="155" y="188.5" width="290" height="47"/>
+                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76567416691840096" blue="0.82450122684560034" alpha="1" colorSpace="calibratedRGB"/>
