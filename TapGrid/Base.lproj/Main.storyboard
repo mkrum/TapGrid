@@ -213,15 +213,20 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Yz9-SS-E7m"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="APPtrocious Logo2 175 Width" translatesAutoresizingMaskIntoConstraints="NO" id="BCy-sU-GVb">
+                                <rect key="frame" x="180" y="386" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="RST-Vv-y8j" secondAttribute="centerY" constant="199.5" id="5MT-Fx-EKH"/>
+                            <constraint firstAttribute="centerY" secondItem="BCy-sU-GVb" secondAttribute="centerY" constant="-150" id="8JI-4h-Ufv"/>
                             <constraint firstAttribute="centerY" secondItem="kkC-8m-IcP" secondAttribute="centerY" constant="81.5" id="8v8-5T-cxJ"/>
                             <constraint firstAttribute="centerX" secondItem="KSu-q6-Vx3" secondAttribute="centerX" constant="-0.5" id="KRj-16-jC2"/>
                             <constraint firstAttribute="centerY" secondItem="l0r-u4-UFx" secondAttribute="centerY" constant="133" id="Pxl-W3-Hq2"/>
                             <constraint firstAttribute="centerX" secondItem="RST-Vv-y8j" secondAttribute="centerX" id="TgC-YJ-rLE"/>
                             <constraint firstAttribute="centerX" secondItem="kkC-8m-IcP" secondAttribute="centerX" id="cXu-05-l1V"/>
+                            <constraint firstAttribute="centerX" secondItem="BCy-sU-GVb" secondAttribute="centerX" id="h1r-MY-e7B"/>
                             <constraint firstAttribute="centerX" secondItem="l0r-u4-UFx" secondAttribute="centerX" id="tKu-fN-D4a"/>
                             <constraint firstAttribute="centerY" secondItem="KSu-q6-Vx3" secondAttribute="centerY" constant="31" id="w6t-TQ-XZA"/>
                         </constraints>
@@ -583,6 +588,9 @@
             <point key="canvasLocation" x="2001" y="372"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="APPtrocious Logo2 175 Width" width="175" height="263"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="WPu-v5-fMf"/>
         <segue reference="Yz9-SS-E7m"/>
