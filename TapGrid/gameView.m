@@ -113,8 +113,20 @@
         CGFloat green = arc4random() % 255 / 255.0;
         CGFloat blue = arc4random() % 255 / 255.0;
         [self.view setBackgroundColor:[UIColor colorWithRed:red green:green blue:blue alpha:1.0]];
+        [self setButtonColors:[UIColor colorWithRed:blue green:red blue:green alpha:1.0]];
     }
 
+}
+-(void)setButtonColors:(UIColor*) color{
+    [_button1 setTitleColor:color forState:UIControlStateNormal];
+    [_button2 setTitleColor:color forState:UIControlStateNormal];
+    [_button3 setTitleColor:color forState:UIControlStateNormal];
+    [_button4 setTitleColor:color forState:UIControlStateNormal];
+    [_button5 setTitleColor:color forState:UIControlStateNormal];
+    [_button6 setTitleColor:color forState:UIControlStateNormal];
+    [_button7 setTitleColor:color forState:UIControlStateNormal];
+    [_button8 setTitleColor:color forState:UIControlStateNormal];
+    [_button9 setTitleColor:color forState:UIControlStateNormal];
 }
 
 
