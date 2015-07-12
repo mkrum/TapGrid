@@ -109,6 +109,10 @@
         _time = _time*(.9);
         [_millitimer invalidate];
         [self startTimer];
+        CGFloat red = arc4random() % 255 / 255.0;
+        CGFloat green = arc4random() % 255 / 255.0;
+        CGFloat blue = arc4random() % 255 / 255.0;
+        [self.view setBackgroundColor:[UIColor colorWithRed:red green:green blue:blue alpha:1.0]];
     }
 
 }
