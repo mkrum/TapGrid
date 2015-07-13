@@ -12,13 +12,13 @@
 
 @interface gameView : UIViewController
 
-@property NSNumber* currentRank;
-@property NSMutableArray *numbers;
-@property NSTimer *millitimer;
-@property int seconds;
-@property int milliseconds;
-@property double time;
-
+@property NSNumber* currentRank; //current number
+@property NSMutableArray *numbers; // array of the nine numbers to be set to the butttons
+@property NSTimer *millitimer; //timer
+@property int seconds;// number of seconds
+@property int milliseconds;// number of milliseconds
+@property double time;// the time to be set to the timer
+//buttons
 @property (weak, nonatomic) IBOutlet tapButton *button1;
 @property (weak, nonatomic) IBOutlet tapButton *button2;
 @property (weak, nonatomic) IBOutlet tapButton *button3;
@@ -28,7 +28,7 @@
 @property (weak, nonatomic) IBOutlet tapButton *button7;
 @property (weak, nonatomic) IBOutlet tapButton *button8;
 @property (weak, nonatomic) IBOutlet tapButton *button9;
-
+//labels
 @property (strong, nonatomic) IBOutlet UILabel *timerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *secondTimerLabel;
 

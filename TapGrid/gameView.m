@@ -21,7 +21,7 @@
     [self initalSet];
     
 }
-
+//randomizing the numbers in an array
 -(void) shuffle: (NSMutableArray*) numbers{
     int rand;
     NSNumber *temp;
@@ -34,6 +34,7 @@
     
 }
 
+//doing the initial setup
 -(void)initalSet{
     
     [self shuffle:_numbers];
@@ -53,7 +54,7 @@
     [self startTimer];
     
 }
-
+//start the timer
 -(void)startTimer{
     
     self.seconds = floor(_time);
@@ -63,7 +64,7 @@
     
 }
 
-
+//runs every millisecond
 -(void) runMilliseconds{
     
     _timerLabel.text = [[NSNumber numberWithInt:_milliseconds] stringValue];
@@ -81,6 +82,7 @@
 
 }
 
+//increases all the number values by 9 and randomizes them
 -(void)set{
     
     for (int i = 0; i < 9; i++) {
@@ -90,6 +92,7 @@
     [self shuffle:_numbers];
 }
 
+//called on every button press
 -(void) buttonPress: (tapButton*) button{
     NSNumber *rank = [NSNumber numberWithInt:[[button getNumber] intValue]];
     _currentRank = [NSNumber numberWithInt:[_currentRank intValue]];
@@ -104,13 +107,33 @@
             _currentRank = [NSNumber numberWithInt:value + 1];
             [button set: _numbers[[rank intValue] % 9]];
             }
+    
     if([rank intValue] % 9 == 0){
         [self set];
         _time = _time*(.9);
         [_millitimer invalidate];
         [self startTimer];
+        CGFloat red = arc4random() % 255 / 255.0;
+        CGFloat green = arc4random() % 255 / 255.0;
+        CGFloat blue = arc4random() % 255 / 255.0;
+        [self.view setBackgroundColor:[UIColor colorWithRed:red green:green blue:blue alpha:1.0]];
+        [self setButtonColors:[UIColor colorWithRed:blue green:red blue:green alpha:1.0]];
     }
 
+}
+//sets all the buttons to the same color
+-(void)setButtonColors:(UIColor*) color{
+    
+    [_button1 setTitleColor:color forState:UIControlStateNormal];
+    [_button2 setTitleColor:color forState:UIControlStateNormal];
+    [_button3 setTitleColor:color forState:UIControlStateNormal];
+    [_button4 setTitleColor:color forState:UIControlStateNormal];
+    [_button5 setTitleColor:color forState:UIControlStateNormal];
+    [_button6 setTitleColor:color forState:UIControlStateNormal];
+    [_button7 setTitleColor:color forState:UIControlStateNormal];
+    [_button8 setTitleColor:color forState:UIControlStateNormal];
+    [_button9 setTitleColor:color forState:UIControlStateNormal];
+    
 }
 
 
@@ -141,7 +164,7 @@
 - (IBAction)button9Press:(id)sender {
     [self buttonPress:sender];
 }
-
+//sets the data that is sent to the next screen
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     loseScreen *newScreen = segue.destinationViewController;
     newScreen.score = _currentRank;
