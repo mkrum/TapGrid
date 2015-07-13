@@ -20,7 +20,7 @@
         _highScoreLabel.text =@"High Score:", [score stringValue];
         [defaults setInteger:[score integerValue] forKey:@"HighScore"];
          } else {
-             _highScoreLabel.text = [NSString stringWithFormat:@" High Score:%ld",(long)HighScore];
+             _highScoreLabel.text = [NSString stringWithFormat:@" Best: %ld",(long)HighScore];
          }
     _scoreLabel.text = [score stringValue];
 }

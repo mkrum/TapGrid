@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -16,9 +16,6 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BxD-8v-3NW">
-                    <rect key="frame" x="202" y="208" width="80" height="80"/>
-                </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="WEi-dp-sIm">
                     <rect key="frame" x="363" y="97" width="80" height="80"/>
                 </imageView>
@@ -55,19 +52,23 @@
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Menu Logo" translatesAutoresizingMaskIntoConstraints="NO" id="GnY-me-ezv">
                     <rect key="frame" x="51" y="97" width="80" height="80"/>
                 </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="APPtrocious Logo2 175 Width" translatesAutoresizingMaskIntoConstraints="NO" id="qFj-xI-Ur0">
+                    <rect key="frame" x="161" y="108" width="175" height="263"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="bdv-VU-5PE" secondAttribute="centerY" constant="-124" id="0G5-hR-NT1"/>
+                <constraint firstAttribute="centerY" secondItem="qFj-xI-Ur0" secondAttribute="centerY" constant="0.5" id="15t-Vn-1bK"/>
                 <constraint firstAttribute="centerY" secondItem="soh-Jf-roU" secondAttribute="centerY" constant="226" id="1kD-b6-Kye"/>
                 <constraint firstAttribute="centerY" secondItem="WEi-dp-sIm" secondAttribute="centerY" constant="103" id="1uA-Mp-HC3"/>
+                <constraint firstAttribute="centerX" secondItem="qFj-xI-Ur0" secondAttribute="centerX" constant="-8.5" id="23O-QL-EaR"/>
                 <constraint firstAttribute="centerY" secondItem="ALm-6Q-qVd" secondAttribute="centerY" constant="-239" id="6ss-QB-vmd"/>
                 <constraint firstAttribute="centerY" secondItem="LsI-ru-0Eh" secondAttribute="centerY" constant="-239" id="7t8-gg-2Ag"/>
                 <constraint firstAttribute="centerY" secondItem="qRE-0Y-U9T" secondAttribute="centerY" constant="-124" id="90z-ZS-WSH"/>
                 <constraint firstAttribute="centerX" secondItem="T3M-07-r2T" secondAttribute="centerX" constant="-2" id="Dco-cr-zoz"/>
                 <constraint firstAttribute="centerY" secondItem="T3M-07-r2T" secondAttribute="centerY" constant="192" id="EzS-Ua-UG2"/>
                 <constraint firstAttribute="centerX" secondItem="soh-Jf-roU" secondAttribute="centerX" constant="238" id="HDW-5l-o7o"/>
-                <constraint firstAttribute="centerX" secondItem="BxD-8v-3NW" secondAttribute="centerX" constant="-2" id="HWd-Lo-pv0"/>
                 <constraint firstAttribute="centerX" secondItem="5SI-5e-bIk" secondAttribute="centerX" constant="-232" id="HfP-YI-bmO"/>
                 <constraint firstAttribute="centerX" secondItem="qRE-0Y-U9T" secondAttribute="centerX" constant="-163" id="IXF-rE-ajQ"/>
                 <constraint firstAttribute="centerY" secondItem="eA3-6G-LZh" secondAttribute="centerY" constant="226" id="Kg5-m3-Bsk"/>
@@ -75,7 +76,6 @@
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
                 <constraint firstAttribute="centerY" secondItem="5SI-5e-bIk" secondAttribute="centerY" constant="-239" id="Rk5-77-A9b"/>
                 <constraint firstAttribute="centerY" secondItem="GnY-me-ezv" secondAttribute="centerY" constant="103" id="STc-1a-NON"/>
-                <constraint firstAttribute="centerY" secondItem="BxD-8v-3NW" secondAttribute="centerY" constant="-8" id="TBk-VV-V6a"/>
                 <constraint firstAttribute="centerY" secondItem="8ie-xW-0ye" secondAttribute="centerY" constant="-180.5" id="YaE-Ts-7Af"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
                 <constraint firstAttribute="centerX" secondItem="vml-ea-Y0Z" secondAttribute="centerX" constant="-238" id="e9F-Gl-FCg"/>
@@ -96,6 +96,7 @@
         </view>
     </objects>
     <resources>
+        <image name="APPtrocious Logo2 175 Width" width="175" height="263"/>
         <image name="Menu Logo" width="80" height="80"/>
     </resources>
 </document>
