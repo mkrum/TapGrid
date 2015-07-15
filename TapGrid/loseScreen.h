@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
 
 @interface loseScreen : UIViewController
 @property NSNumber *score;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *highScoreLabel;
+@property (weak, nonatomic) IBOutlet UIButton *shareButton;
 
+- (IBAction)sharePressed:(id)sender;
 
 @end
