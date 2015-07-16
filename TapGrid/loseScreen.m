@@ -10,6 +10,7 @@
 #import "socialShare.h"
 #import <Social/Social.h>
 
+
 @implementation loseScreen
 
 @synthesize score;
@@ -27,12 +28,23 @@
     _scoreLabel.text = [score stringValue];
 }
 
+- (IBAction)takeScreenshot:(id)sender {
+    UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, self.view.opaque, 0.0);
+    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *theImage=UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    NSData *theImageData = UIImagePNGRepresentation(theImage);
+    [theImageData writeToFile:@"yourScore.png" atomically:YES];
+}
+
 - (IBAction)sharePressed:(id)sender {
     NSString *tweet = [NSString stringWithFormat:@"I got to %@",_scoreLabel.text];
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
     {
         SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
         [tweetSheet setInitialText:tweet];
+        [tweetSheet addImage: [UIImage imageNamed:self.theImage]];
         [self presentViewController:tweetSheet animated:YES completion:nil];
     }
     else

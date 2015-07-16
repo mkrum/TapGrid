@@ -366,7 +366,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="282" y="166" width="30" height="71"/>
+                                    <rect key="frame" x="382" y="166" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button3Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="HPM-x8-Td7"/>
@@ -379,7 +379,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="81" y="278" width="30" height="71"/>
+                                    <rect key="frame" x="181" y="278" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button5Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="XuR-OP-WGu"/>
@@ -392,7 +392,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="81" y="166" width="30" height="71"/>
+                                    <rect key="frame" x="181" y="166" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button6Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="UEO-XD-q4y"/>
@@ -405,7 +405,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="185" y="396" width="30" height="71"/>
+                                    <rect key="frame" x="285" y="396" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button7Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="zNl-UQ-RXx"/>
@@ -418,7 +418,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="282" y="396" width="30" height="71"/>
+                                    <rect key="frame" x="382" y="396" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button8Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="yFa-mE-jLq"/>
@@ -431,7 +431,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="81" y="396" width="30" height="71"/>
+                                    <rect key="frame" x="181" y="396" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button9Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="Dzu-ja-Jd0"/>
@@ -444,7 +444,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="185" y="278" width="30" height="71"/>
+                                    <rect key="frame" x="285" y="278" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button1Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="XYM-5P-RPj"/>
@@ -456,7 +456,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="151" y="53" width="98" height="47"/>
+                                    <rect key="frame" x="251" y="53" width="98" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7t-uX-YFS">
@@ -465,7 +465,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="53" width="98" height="47"/>
+                                    <rect key="frame" x="153" y="53" width="98" height="47"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e97-jo-HPG" customClass="tapButton">
@@ -475,7 +475,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="185" y="166" width="30" height="71"/>
+                                    <rect key="frame" x="285" y="166" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button4Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="lec-O5-S0f"/>
@@ -488,7 +488,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="282" y="278" width="30" height="71"/>
+                                    <rect key="frame" x="382" y="278" width="30" height="71"/>
                                 </variation>
                                 <connections>
                                     <action selector="button2Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="kLZ-tG-ECC"/>
@@ -636,7 +636,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="55" y="200" width="290" height="47"/>
+                                    <rect key="frame" x="155" y="200" width="290" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58N-KA-h7q">
@@ -645,7 +645,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="109" y="255" width="183.5" height="87.5"/>
+                                    <rect key="frame" x="209" y="255" width="183.5" height="87.5"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
@@ -656,7 +656,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="136" y="347" width="129" height="71"/>
+                                    <rect key="frame" x="236" y="347" width="129" height="71"/>
                                 </variation>
                                 <connections>
                                     <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
@@ -670,7 +670,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="153.5" y="410" width="93" height="71"/>
+                                    <rect key="frame" x="253.5" y="410" width="93" height="71"/>
                                 </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I6m-aO-yR8"/>
@@ -682,7 +682,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="151" y="91" width="98" height="47"/>
+                                    <rect key="frame" x="251" y="91" width="98" height="47"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-5H-915">
@@ -690,8 +690,12 @@
                                 <state key="normal" title="Share">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="277" y="326" width="40" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="sharePressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="xQY-iE-ZJG"/>
+                                    <action selector="takeScreenshot:" destination="8xv-eu-3bm" eventType="touchUpInside" id="D8n-lt-DXg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -721,12 +725,12 @@
                                 <exclude reference="ETN-5H-915"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="16Y-xI-wlW"/>
-                                <exclude reference="xQg-ev-hsL"/>
-                                <exclude reference="Cuj-1S-lTe"/>
-                                <exclude reference="Wj6-NY-jwP"/>
                                 <exclude reference="Dxg-0R-hpH"/>
                                 <exclude reference="gf6-j9-sIn"/>
+                                <exclude reference="Cuj-1S-lTe"/>
+                                <exclude reference="Wj6-NY-jwP"/>
+                                <exclude reference="16Y-xI-wlW"/>
+                                <exclude reference="xQg-ev-hsL"/>
                                 <exclude reference="Obl-0m-oQz"/>
                                 <exclude reference="any-0k-CUS"/>
                                 <exclude reference="Mk7-12-vhx"/>
@@ -745,12 +749,12 @@
                                 <include reference="ETN-5H-915"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="16Y-xI-wlW"/>
-                                <include reference="xQg-ev-hsL"/>
-                                <include reference="Cuj-1S-lTe"/>
-                                <include reference="Wj6-NY-jwP"/>
                                 <include reference="Dxg-0R-hpH"/>
                                 <include reference="gf6-j9-sIn"/>
+                                <include reference="Cuj-1S-lTe"/>
+                                <include reference="Wj6-NY-jwP"/>
+                                <include reference="16Y-xI-wlW"/>
+                                <include reference="xQg-ev-hsL"/>
                                 <include reference="Obl-0m-oQz"/>
                                 <include reference="any-0k-CUS"/>
                                 <include reference="Mk7-12-vhx"/>
