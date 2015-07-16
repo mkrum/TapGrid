@@ -28,7 +28,7 @@
 }
 
 - (IBAction)sharePressed:(id)sender {
-    NSString *tweet = [NSString stringWithFormat:@"I got to %@",[score stringValue]];
+    NSString *tweet = [NSString stringWithFormat:@"I got to %@",_scoreLabel.text];
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
     {
         SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
