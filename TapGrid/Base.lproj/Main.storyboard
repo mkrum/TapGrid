@@ -34,6 +34,7 @@
             <string>TapGridFont</string>
             <string>TapGridFont</string>
             <string>TapGridFont</string>
+            <string>TapGridFont</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -636,7 +637,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="155" y="200" width="290" height="47"/>
+                                    <rect key="frame" x="55" y="147" width="290" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58N-KA-h7q">
@@ -645,23 +646,9 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="209" y="255" width="183.5" height="87.5"/>
+                                    <rect key="frame" x="109" y="202" width="183.5" height="87.5"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="236" y="347" width="129" height="71"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktk-dn-xH0">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
@@ -670,7 +657,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="253.5" y="410" width="93" height="71"/>
+                                    <rect key="frame" x="154" y="341" width="93" height="71"/>
                                 </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I6m-aO-yR8"/>
@@ -682,19 +669,48 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="251" y="91" width="98" height="47"/>
+                                    <rect key="frame" x="151" y="92" width="98" height="47"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-5H-915">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-5H-915">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Share">
+                                <state key="normal" backgroundImage="Twitter Icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareTwitterPressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="GTd-1s-mbt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9Y-P9-H4I">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="Facebook Icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareFacebookPressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="FAP-kE-uaT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdV-8F-JQa">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="20"/>
+                                <color key="textColor" red="0.003598733377" green="0.1393455337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="170" y="473" width="60" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="277" y="326" width="40" height="30"/>
+                                    <rect key="frame" x="136" y="285" width="129" height="71"/>
                                 </variation>
                                 <connections>
-                                    <action selector="sharePressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="xQY-iE-ZJG"/>
+                                    <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -702,64 +718,80 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="IBT-JO-qWG" secondAttribute="centerX" id="16Y-xI-wlW"/>
-                            <constraint firstAttribute="centerY" secondItem="AU8-M9-PZk" secondAttribute="centerY" constant="76" id="Cuj-1S-lTe"/>
-                            <constraint firstAttribute="centerY" secondItem="58N-KA-h7q" secondAttribute="centerY" constant="1.25" id="Dxg-0R-hpH"/>
-                            <constraint firstAttribute="centerY" secondItem="b4n-CW-bcO" secondAttribute="centerY" constant="-82.5" id="Mk7-12-vhx"/>
-                            <constraint firstAttribute="centerY" secondItem="ETN-5H-915" secondAttribute="centerY" constant="-41" id="Obl-0m-oQz"/>
+                            <constraint firstAttribute="centerX" secondItem="ETN-5H-915" secondAttribute="centerX" constant="39" id="2N1-JU-HB3"/>
+                            <constraint firstAttribute="centerY" secondItem="AU8-M9-PZk" secondAttribute="centerY" constant="129.5" id="3ob-n3-ZvZ"/>
+                            <constraint firstAttribute="centerY" secondItem="58N-KA-h7q" secondAttribute="centerY" constant="54.25" id="QPR-ra-Fh6"/>
+                            <constraint firstAttribute="centerY" secondItem="ktk-dn-xH0" secondAttribute="centerY" constant="-76.5" id="S0d-q4-GKh"/>
+                            <constraint firstAttribute="centerY" secondItem="HdV-8F-JQa" secondAttribute="centerY" constant="-183.5" id="Vv3-eP-A9D"/>
                             <constraint firstAttribute="centerX" secondItem="AU8-M9-PZk" secondAttribute="centerX" id="Wj6-NY-jwP"/>
-                            <constraint firstAttribute="centerX" secondItem="ETN-5H-915" secondAttribute="centerX" constant="3" id="any-0k-CUS"/>
+                            <constraint firstAttribute="centerY" secondItem="b4n-CW-bcO" secondAttribute="centerY" constant="-20.5" id="aw3-Kf-v3u"/>
+                            <constraint firstAttribute="centerX" secondItem="HdV-8F-JQa" secondAttribute="centerX" constant="-0.5" id="bJK-Cg-vzF"/>
                             <constraint firstAttribute="centerX" secondItem="ktk-dn-xH0" secondAttribute="centerX" id="bq6-wp-Fe1"/>
                             <constraint firstAttribute="centerX" secondItem="58N-KA-h7q" secondAttribute="centerX" constant="-0.75" id="gf6-j9-sIn"/>
+                            <constraint firstAttribute="centerY" secondItem="ETN-5H-915" secondAttribute="centerY" constant="-140" id="kqF-BE-3Y3"/>
                             <constraint firstAttribute="centerX" secondItem="b4n-CW-bcO" secondAttribute="centerX" constant="-0.5" id="luB-Qg-jOC"/>
-                            <constraint firstAttribute="centerY" secondItem="ktk-dn-xH0" secondAttribute="centerY" constant="-145.5" id="sEg-gQ-2dD"/>
+                            <constraint firstAttribute="centerY" secondItem="U9Y-P9-H4I" secondAttribute="centerY" constant="-140" id="qbp-TV-xnr"/>
                             <constraint firstAttribute="centerY" secondItem="IBT-JO-qWG" secondAttribute="centerY" constant="185.25" id="xQg-ev-hsL"/>
+                            <constraint firstAttribute="centerX" secondItem="U9Y-P9-H4I" secondAttribute="centerX" constant="-40" id="y4P-ue-RcI"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="AU8-M9-PZk"/>
                                 <exclude reference="58N-KA-h7q"/>
-                                <exclude reference="b4n-CW-bcO"/>
                                 <exclude reference="ktk-dn-xH0"/>
                                 <exclude reference="IBT-JO-qWG"/>
                                 <exclude reference="ETN-5H-915"/>
+                                <exclude reference="U9Y-P9-H4I"/>
+                                <exclude reference="HdV-8F-JQa"/>
+                                <exclude reference="b4n-CW-bcO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Dxg-0R-hpH"/>
-                                <exclude reference="gf6-j9-sIn"/>
-                                <exclude reference="Cuj-1S-lTe"/>
+                                <exclude reference="3ob-n3-ZvZ"/>
                                 <exclude reference="Wj6-NY-jwP"/>
                                 <exclude reference="16Y-xI-wlW"/>
                                 <exclude reference="xQg-ev-hsL"/>
-                                <exclude reference="Obl-0m-oQz"/>
-                                <exclude reference="any-0k-CUS"/>
-                                <exclude reference="Mk7-12-vhx"/>
+                                <exclude reference="QPR-ra-Fh6"/>
+                                <exclude reference="gf6-j9-sIn"/>
+                                <exclude reference="aw3-Kf-v3u"/>
                                 <exclude reference="luB-Qg-jOC"/>
+                                <exclude reference="S0d-q4-GKh"/>
                                 <exclude reference="bq6-wp-Fe1"/>
-                                <exclude reference="sEg-gQ-2dD"/>
+                                <exclude reference="2N1-JU-HB3"/>
+                                <exclude reference="kqF-BE-3Y3"/>
+                                <exclude reference="qbp-TV-xnr"/>
+                                <exclude reference="y4P-ue-RcI"/>
+                                <exclude reference="Vv3-eP-A9D"/>
+                                <exclude reference="bJK-Cg-vzF"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="AU8-M9-PZk"/>
                                 <include reference="58N-KA-h7q"/>
-                                <include reference="b4n-CW-bcO"/>
                                 <include reference="ktk-dn-xH0"/>
                                 <include reference="IBT-JO-qWG"/>
                                 <include reference="ETN-5H-915"/>
+                                <include reference="U9Y-P9-H4I"/>
+                                <include reference="HdV-8F-JQa"/>
+                                <include reference="b4n-CW-bcO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Dxg-0R-hpH"/>
-                                <include reference="gf6-j9-sIn"/>
-                                <include reference="Cuj-1S-lTe"/>
+                                <include reference="3ob-n3-ZvZ"/>
                                 <include reference="Wj6-NY-jwP"/>
                                 <include reference="16Y-xI-wlW"/>
                                 <include reference="xQg-ev-hsL"/>
-                                <include reference="Obl-0m-oQz"/>
-                                <include reference="any-0k-CUS"/>
-                                <include reference="Mk7-12-vhx"/>
+                                <include reference="QPR-ra-Fh6"/>
+                                <include reference="gf6-j9-sIn"/>
+                                <include reference="aw3-Kf-v3u"/>
                                 <include reference="luB-Qg-jOC"/>
+                                <include reference="S0d-q4-GKh"/>
                                 <include reference="bq6-wp-Fe1"/>
-                                <include reference="sEg-gQ-2dD"/>
+                                <include reference="2N1-JU-HB3"/>
+                                <include reference="kqF-BE-3Y3"/>
+                                <include reference="qbp-TV-xnr"/>
+                                <include reference="y4P-ue-RcI"/>
+                                <include reference="Vv3-eP-A9D"/>
+                                <include reference="bJK-Cg-vzF"/>
                             </mask>
                         </variation>
                     </view>
@@ -776,6 +808,8 @@
     </scenes>
     <resources>
         <image name="APPtrocious Logo2 175 Width" width="175" height="263"/>
+        <image name="Facebook Icon" width="50" height="50"/>
+        <image name="Twitter Icon" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="I6m-aO-yR8"/>

@@ -15,10 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *highScoreLabel;
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
-@property NSData *theImageData;
 
 - (UIImage *)takeScreenshot;
 
-- (IBAction)sharePressed:(id)sender;
+- (IBAction)shareTwitterPressed:(id)sender;
+- (IBAction)shareFacebookPressed:(id)sender;
 
 @end
