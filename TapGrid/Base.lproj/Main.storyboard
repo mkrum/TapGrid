@@ -695,7 +695,6 @@
                                 </variation>
                                 <connections>
                                     <action selector="sharePressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="xQY-iE-ZJG"/>
-                                    <action selector="takeScreenshot:" destination="8xv-eu-3bm" eventType="touchUpInside" id="D8n-lt-DXg"/>
                                 </connections>
                             </button>
                         </subviews>
