@@ -637,7 +637,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="55" y="147" width="290" height="47"/>
+                                    <rect key="frame" x="155" y="147" width="290" height="47"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58N-KA-h7q">
@@ -646,7 +646,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="109" y="202" width="183.5" height="87.5"/>
+                                    <rect key="frame" x="209" y="202" width="183.5" height="87.5"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktk-dn-xH0">
@@ -657,7 +657,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="154" y="341" width="93" height="71"/>
+                                    <rect key="frame" x="253.5" y="341" width="93" height="71"/>
                                 </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I6m-aO-yR8"/>
@@ -669,7 +669,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="151" y="92" width="98" height="47"/>
+                                    <rect key="frame" x="251" y="92" width="98" height="47"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-5H-915">
@@ -677,6 +677,9 @@
                                 <state key="normal" backgroundImage="Twitter Icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="236" y="415" width="50" height="50"/>
+                                </variation>
                                 <connections>
                                     <action selector="shareTwitterPressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="GTd-1s-mbt"/>
                                 </connections>
@@ -686,6 +689,9 @@
                                 <state key="normal" backgroundImage="Facebook Icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="315" y="415" width="50" height="50"/>
+                                </variation>
                                 <connections>
                                     <action selector="shareFacebookPressed:" destination="8xv-eu-3bm" eventType="touchUpInside" id="FAP-kE-uaT"/>
                                 </connections>
@@ -696,7 +702,7 @@
                                 <color key="textColor" red="0.003598733377" green="0.1393455337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="170" y="473" width="60" height="21"/>
+                                    <rect key="frame" x="274.5" y="472" width="52" height="23.5"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
@@ -707,7 +713,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="136" y="285" width="129" height="71"/>
+                                    <rect key="frame" x="236" y="285" width="129" height="71"/>
                                 </variation>
                                 <connections>
                                     <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
@@ -746,22 +752,22 @@
                                 <exclude reference="b4n-CW-bcO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3ob-n3-ZvZ"/>
-                                <exclude reference="Wj6-NY-jwP"/>
-                                <exclude reference="16Y-xI-wlW"/>
-                                <exclude reference="xQg-ev-hsL"/>
                                 <exclude reference="QPR-ra-Fh6"/>
                                 <exclude reference="gf6-j9-sIn"/>
-                                <exclude reference="aw3-Kf-v3u"/>
-                                <exclude reference="luB-Qg-jOC"/>
-                                <exclude reference="S0d-q4-GKh"/>
-                                <exclude reference="bq6-wp-Fe1"/>
+                                <exclude reference="3ob-n3-ZvZ"/>
+                                <exclude reference="Wj6-NY-jwP"/>
+                                <exclude reference="Vv3-eP-A9D"/>
+                                <exclude reference="bJK-Cg-vzF"/>
+                                <exclude reference="16Y-xI-wlW"/>
+                                <exclude reference="xQg-ev-hsL"/>
                                 <exclude reference="2N1-JU-HB3"/>
                                 <exclude reference="kqF-BE-3Y3"/>
                                 <exclude reference="qbp-TV-xnr"/>
                                 <exclude reference="y4P-ue-RcI"/>
-                                <exclude reference="Vv3-eP-A9D"/>
-                                <exclude reference="bJK-Cg-vzF"/>
+                                <exclude reference="aw3-Kf-v3u"/>
+                                <exclude reference="luB-Qg-jOC"/>
+                                <exclude reference="S0d-q4-GKh"/>
+                                <exclude reference="bq6-wp-Fe1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -776,22 +782,22 @@
                                 <include reference="b4n-CW-bcO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3ob-n3-ZvZ"/>
-                                <include reference="Wj6-NY-jwP"/>
-                                <include reference="16Y-xI-wlW"/>
-                                <include reference="xQg-ev-hsL"/>
                                 <include reference="QPR-ra-Fh6"/>
                                 <include reference="gf6-j9-sIn"/>
-                                <include reference="aw3-Kf-v3u"/>
-                                <include reference="luB-Qg-jOC"/>
-                                <include reference="S0d-q4-GKh"/>
-                                <include reference="bq6-wp-Fe1"/>
+                                <include reference="3ob-n3-ZvZ"/>
+                                <include reference="Wj6-NY-jwP"/>
+                                <include reference="Vv3-eP-A9D"/>
+                                <include reference="bJK-Cg-vzF"/>
+                                <include reference="16Y-xI-wlW"/>
+                                <include reference="xQg-ev-hsL"/>
                                 <include reference="2N1-JU-HB3"/>
                                 <include reference="kqF-BE-3Y3"/>
                                 <include reference="qbp-TV-xnr"/>
                                 <include reference="y4P-ue-RcI"/>
-                                <include reference="Vv3-eP-A9D"/>
-                                <include reference="bJK-Cg-vzF"/>
+                                <include reference="aw3-Kf-v3u"/>
+                                <include reference="luB-Qg-jOC"/>
+                                <include reference="S0d-q4-GKh"/>
+                                <include reference="bq6-wp-Fe1"/>
                             </mask>
                         </variation>
                     </view>
