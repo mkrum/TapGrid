@@ -18,6 +18,7 @@
 		38B209261B421FF5001224A3 /* gameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209251B421FF5001224A3 /* gameView.m */; };
 		38B209291B437752001224A3 /* tapButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B209281B437752001224A3 /* tapButton.m */; };
 		38B2092C1B4CC4BF001224A3 /* loseScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B2092B1B4CC4BF001224A3 /* loseScreen.m */; };
+		38C8F10A1B6084FE0092404B /* HighScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C8F1091B6084FE0092404B /* HighScoreView.m */; };
 		E55848581B505DA90001F3CE /* TapGridFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E55848571B505DA90001F3CE /* TapGridFont.ttf */; };
 		E57DF5C01B5745F200F7D593 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57DF5BF1B5745F200F7D593 /* Social.framework */; };
 		E57DF5C21B5745FF00F7D593 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57DF5C11B5745FF00F7D593 /* QuartzCore.framework */; };
@@ -54,6 +55,8 @@
 		38B209281B437752001224A3 /* tapButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tapButton.m; sourceTree = "<group>"; };
 		38B2092A1B4CC4BF001224A3 /* loseScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loseScreen.h; sourceTree = "<group>"; };
 		38B2092B1B4CC4BF001224A3 /* loseScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loseScreen.m; sourceTree = "<group>"; };
+		38C8F1081B6084FE0092404B /* HighScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreView.h; sourceTree = "<group>"; };
+		38C8F1091B6084FE0092404B /* HighScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreView.m; sourceTree = "<group>"; };
 		E55848571B505DA90001F3CE /* TapGridFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TapGridFont.ttf; sourceTree = "<group>"; };
 		E57DF5BF1B5745F200F7D593 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		E57DF5C11B5745FF00F7D593 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -110,6 +113,8 @@
 				38B209081B421D2C001224A3 /* Main.storyboard */,
 				38B209241B421FF5001224A3 /* gameView.h */,
 				38B209251B421FF5001224A3 /* gameView.m */,
+				38C8F1081B6084FE0092404B /* HighScoreView.h */,
+				38C8F1091B6084FE0092404B /* HighScoreView.m */,
 				38B2092A1B4CC4BF001224A3 /* loseScreen.h */,
 				38B2092B1B4CC4BF001224A3 /* loseScreen.m */,
 				38B209271B437752001224A3 /* tapButton.h */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B209011B421D2C001224A3 /* AppDelegate.m in Sources */,
+				38C8F10A1B6084FE0092404B /* HighScoreView.m in Sources */,
 				38B208FE1B421D2C001224A3 /* main.m in Sources */,
 				38B209261B421FF5001224A3 /* gameView.m in Sources */,
 				38B209291B437752001224A3 /* tapButton.m in Sources */,

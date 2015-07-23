@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -105,30 +105,45 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="111"/>
                                 <color key="textColor" red="0.0" green="0.66424005681818188" blue="0.0004579262790313282" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="227" y="63" width="59.5" height="129.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="G" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHy-oQ-RDN">
                                 <rect key="frame" x="182" y="154" width="69" height="88.5"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="100"/>
                                 <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="78.5" y="171" width="76" height="116.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="r" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sD-UH-esd">
                                 <rect key="frame" x="259" y="171" width="46" height="53.5"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="100"/>
                                 <color key="textColor" red="0.9142005997474747" green="0.0" blue="0.91357035097727013" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="165.5" y="170" width="33.5" height="116.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="i" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AL2-M7-w0l">
                                 <rect key="frame" x="313" y="161" width="28" height="75"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="100"/>
                                 <color key="textColor" red="0.0" green="0.89236111111111116" blue="0.89236111111111116" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="216" y="171" width="22.5" height="116.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="d" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHb-HV-v8K">
                                 <rect key="frame" x="349" y="156" width="54" height="78"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="100"/>
                                 <color key="textColor" red="0.77296401515151514" green="0.772431134709196" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="246.5" y="168" width="59.5" height="116.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTJ-4T-fcm">
                                 <rect key="frame" x="224" y="403" width="153" height="51"/>
@@ -138,6 +153,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="136" y="399" width="129" height="59"/>
+                                </variation>
                                 <connections>
                                     <segue destination="0jq-Jb-2Q8" kind="show" id="NWx-i7-mDa"/>
                                 </connections>
@@ -159,7 +177,8 @@
                                         <exclude reference="Pwz-qG-6pL"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="136.5" y="308" width="128" height="58"/>
                                     <mask key="constraints">
                                         <include reference="Pwz-qG-6pL"/>
                                     </mask>
@@ -238,18 +257,27 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="50"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="74.5" y="99" width="251" height="58.5"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="David Durkin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSu-q6-Vx3">
                                 <rect key="frame" x="161" y="252" width="279" height="56"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.003598733377" green="0.1393455337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="86" y="238" width="229" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Michael Krumdick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0r-u4-UFx">
                                 <rect key="frame" x="108" y="127" width="384" height="78"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="39" y="166" width="322" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&amp;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkC-8m-IcP">
                                 <rect key="frame" x="271" y="199" width="58" height="51"/>
@@ -340,6 +368,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="282" y="166" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button3Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="HPM-x8-Td7"/>
                                 </connections>
@@ -350,6 +381,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="81" y="278" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button5Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="XuR-OP-WGu"/>
                                 </connections>
@@ -360,6 +394,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="81" y="166" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button6Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="UEO-XD-q4y"/>
                                 </connections>
@@ -370,6 +407,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="185" y="396" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button7Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="zNl-UQ-RXx"/>
                                 </connections>
@@ -380,6 +420,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="282" y="396" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button8Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="yFa-mE-jLq"/>
                                 </connections>
@@ -390,6 +433,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="81" y="396" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button9Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="Dzu-ja-Jd0"/>
                                 </connections>
@@ -400,6 +446,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="185" y="278" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button1Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="XYM-5P-RPj"/>
                                 </connections>
@@ -409,12 +458,18 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="151" y="53" width="98" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7t-uX-YFS">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="53" y="53" width="98" height="47"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e97-jo-HPG" customClass="tapButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -422,6 +477,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="185" y="166" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button4Press:" destination="ddZ-Mr-HvV" eventType="touchUpInside" id="lec-O5-S0f"/>
                                 </connections>
@@ -432,6 +490,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="282" y="278" width="30" height="71"/>
+                                </variation>
                                 <connections>
                                     <action selector="button2Press:" destination="ddZ-Mr-HvV" eventType="touchDown" id="kLZ-tG-ECC"/>
                                 </connections>
@@ -554,6 +615,7 @@
                         <outlet property="secondTimerLabel" destination="O7t-uX-YFS" id="i2C-S0-kPj"/>
                         <outlet property="timerLabel" destination="gMg-dP-mFh" id="hHR-Ss-kre"/>
                         <segue destination="8xv-eu-3bm" kind="show" identifier="loseScreen" id="ezf-En-Kgk"/>
+                        <segue destination="ILf-PK-CTl" kind="show" identifier="highScoreSeg" id="p2V-3A-3V1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89u-0q-Mhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -577,12 +639,18 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="55" y="147" width="290" height="47"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58N-KA-h7q">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="75"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="109" y="202" width="183.5" height="87.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktk-dn-xH0">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -591,6 +659,9 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.160998218" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="153.5" y="341" width="93" height="71"/>
+                                </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="I6m-aO-yR8"/>
                                 </connections>
@@ -600,6 +671,9 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="151" y="91.5" width="98" height="47"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-5H-915">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -624,6 +698,9 @@
                                 <fontDescription key="fontDescription" name="TapGridFont" family="TapGridFont" pointSize="20"/>
                                 <color key="textColor" red="0.003598733377" green="0.1393455337" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="174.5" y="472" width="52" height="23.5"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4n-CW-bcO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -632,6 +709,9 @@
                                     <color key="titleColor" red="0.0" green="0.66424005679999998" blue="0.00045792627900000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="136" y="285" width="129" height="71"/>
+                                </variation>
                                 <connections>
                                     <segue destination="ddZ-Mr-HvV" kind="show" id="WPu-v5-fMf"/>
                                 </connections>
@@ -726,7 +806,71 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5RI-KV-87p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2001" y="372"/>
+            <point key="canvasLocation" x="2580" y="224"/>
+        </scene>
+        <!--High Score View-->
+        <scene sceneID="esN-JM-pF4">
+            <objects>
+                <viewController id="ILf-PK-CTl" customClass="HighScoreView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3OD-U0-EAF"/>
+                        <viewControllerLayoutGuide type="bottom" id="rpC-u5-4X7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V7l-P8-wDd">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oq1-kx-ZR1">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wg8-gy-Xbc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="oq1-kx-ZR1" secondAttribute="centerY" constant="240.5" id="D09-Oz-gnv"/>
+                            <constraint firstAttribute="centerX" secondItem="Wg8-gy-Xbc" secondAttribute="centerX" id="E0W-TN-6YF"/>
+                            <constraint firstAttribute="centerY" secondItem="Wg8-gy-Xbc" secondAttribute="centerY" constant="230.5" id="iIb-nG-k7B"/>
+                            <constraint firstAttribute="centerX" secondItem="oq1-kx-ZR1" secondAttribute="centerX" constant="-11" id="lp9-wN-Eki"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="oq1-kx-ZR1"/>
+                                <exclude reference="Wg8-gy-Xbc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="E0W-TN-6YF"/>
+                                <exclude reference="iIb-nG-k7B"/>
+                                <exclude reference="D09-Oz-gnv"/>
+                                <exclude reference="lp9-wN-Eki"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="oq1-kx-ZR1"/>
+                                <include reference="Wg8-gy-Xbc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="E0W-TN-6YF"/>
+                                <include reference="iIb-nG-k7B"/>
+                                <include reference="D09-Oz-gnv"/>
+                                <include reference="lp9-wN-Eki"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="HighScore" destination="Wg8-gy-Xbc" id="kjI-tV-CO4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dik-6E-nP1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2625" y="1138"/>
         </scene>
     </scenes>
     <resources>
@@ -735,7 +879,7 @@
         <image name="Twitter Icon" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Yz9-SS-E7m"/>
+        <segue reference="I6m-aO-yR8"/>
         <segue reference="WPu-v5-fMf"/>
     </inferredMetricsTieBreakers>
 </document>

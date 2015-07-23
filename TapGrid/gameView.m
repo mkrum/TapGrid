@@ -8,6 +8,7 @@
 
 #import "gameView.h"
 #import "loseScreen.h"
+#import "HighScoreView.h"
 
 @implementation gameView
 
@@ -77,7 +78,7 @@
     _milliseconds = _milliseconds - 1;
     if (_seconds == 0){
         [_millitimer invalidate];
-        [self performSegueWithIdentifier:@"loseScreen" sender:self];
+        [self segAway];
     }
 
 }
@@ -99,7 +100,7 @@
     
     if ([rank intValue] != ([_currentRank intValue] + 1)){
         [_millitimer invalidate];
-        [self performSegueWithIdentifier:@"loseScreen" sender:self];
+        [self segAway];
         
     }
         else{
@@ -164,10 +165,31 @@
 - (IBAction)button9Press:(id)sender {
     [self buttonPress:sender];
 }
+         
+         
 //sets the data that is sent to the next screen
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    loseScreen *newScreen = segue.destinationViewController;
-    newScreen.score = _currentRank;
+        if ([segue.identifier  isEqual: @"highScoreSeg"]){
+        HighScoreView *newScreen = segue.destinationViewController;
+        newScreen.score = _currentRank;
+        } else{
+        loseScreen *newScreen = segue.destinationViewController;
+        newScreen.score = _currentRank;
+    }
+    
+}
+         
+-(void) segAway{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger HighScore = [defaults integerForKey:@"HighScore"];
+    if ((NSInteger)_currentRank < HighScore) {
+        [defaults setInteger:[_currentRank integerValue] forKey:@"HighScore"];
+        [self performSegueWithIdentifier:@"highScoreSeg" sender:self];
+    } else {
+        [self performSegueWithIdentifier:@"loseScreen" sender:self];
+    }
+
+
 }
 
 @end

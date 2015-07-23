@@ -19,12 +19,7 @@
 -(void)viewDidLoad{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSInteger HighScore = [defaults integerForKey:@"HighScore"];
-    if ([score integerValue] > HighScore) {
-        _highScoreLabel.text =@"High Score:", [score stringValue];
-        [defaults setInteger:[score integerValue] forKey:@"HighScore"];
-         } else {
-             _highScoreLabel.text = [NSString stringWithFormat:@" Best: %ld",(long)HighScore];
-         }
+    _highScoreLabel.text = [NSString stringWithFormat:@" Best: %ld",(long)HighScore];
     _scoreLabel.text = [score stringValue];
 }
 
