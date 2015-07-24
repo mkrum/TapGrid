@@ -182,7 +182,7 @@
 -(void) segAway{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSInteger HighScore = [defaults integerForKey:@"HighScore"];
-    if ((NSInteger)_currentRank < HighScore) {
+    if ((NSInteger)_currentRank > HighScore) {
         [defaults setInteger:[_currentRank integerValue] forKey:@"HighScore"];
         [self performSegueWithIdentifier:@"highScoreSeg" sender:self];
     } else {
